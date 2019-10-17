@@ -87,10 +87,6 @@ set_global_assignment -name QIP_FILE lpm_rom4.qip
 set_global_assignment -name QIP_FILE lpm_bustri5.qip
 set_global_assignment -name HEX_FILE rom.hex
 set_global_assignment -name QIP_FILE lpm_ram_dq4.qip
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name QIP_FILE lpm_bustri6.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE Lab4.vwf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Lab4.vwf
@@ -101,4 +97,10 @@ set_global_assignment -name QIP_FILE lpm_add_sub1.qip
 set_global_assignment -name QIP_FILE lpm_mux3.qip
 set_global_assignment -name QIP_FILE lpm_constant1.qip
 set_global_assignment -name QIP_FILE lpm_bustri7.qip
+set_global_assignment -name BDF_FILE Driver.bdf
+set_global_assignment -name BDF_FILE reserv.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
