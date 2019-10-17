@@ -42,8 +42,8 @@ USE lpm.all;
 ENTITY lpm_counter1 IS
 	PORT
 	(
+		aset		: IN STD_LOGIC ;
 		clock		: IN STD_LOGIC ;
-		sset		: IN STD_LOGIC ;
 		q		: OUT STD_LOGIC_VECTOR (2 DOWNTO 0)
 	);
 END lpm_counter1;
@@ -65,7 +65,7 @@ ARCHITECTURE SYN OF lpm_counter1 IS
 	PORT (
 			clock	: IN STD_LOGIC ;
 			q	: OUT STD_LOGIC_VECTOR (2 DOWNTO 0);
-			sset	: IN STD_LOGIC 
+			aset	: IN STD_LOGIC 
 	);
 	END COMPONENT;
 
@@ -81,7 +81,7 @@ BEGIN
 	)
 	PORT MAP (
 		clock => clock,
-		sset => sset,
+		aset => aset,
 		q => sub_wire0
 	);
 
@@ -94,7 +94,7 @@ END SYN;
 -- ============================================================
 -- Retrieval info: PRIVATE: ACLR NUMERIC "0"
 -- Retrieval info: PRIVATE: ALOAD NUMERIC "0"
--- Retrieval info: PRIVATE: ASET NUMERIC "0"
+-- Retrieval info: PRIVATE: ASET NUMERIC "1"
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: CLK_EN NUMERIC "0"
 -- Retrieval info: PRIVATE: CNT_EN NUMERIC "0"
@@ -106,7 +106,7 @@ END SYN;
 -- Retrieval info: PRIVATE: ModulusValue NUMERIC "0"
 -- Retrieval info: PRIVATE: SCLR NUMERIC "0"
 -- Retrieval info: PRIVATE: SLOAD NUMERIC "0"
--- Retrieval info: PRIVATE: SSET NUMERIC "1"
+-- Retrieval info: PRIVATE: SSET NUMERIC "0"
 -- Retrieval info: PRIVATE: SSET_ALL1 NUMERIC "1"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 -- Retrieval info: PRIVATE: nBit NUMERIC "3"
@@ -114,12 +114,12 @@ END SYN;
 -- Retrieval info: CONSTANT: LPM_PORT_UPDOWN STRING "PORT_UNUSED"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_COUNTER"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "3"
+-- Retrieval info: USED_PORT: aset 0 0 0 0 INPUT NODEFVAL aset
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: q 0 0 3 0 OUTPUT NODEFVAL q[2..0]
--- Retrieval info: USED_PORT: sset 0 0 0 0 INPUT NODEFVAL sset
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 3 0 @q 0 0 3 0
--- Retrieval info: CONNECT: @sset 0 0 0 0 sset 0 0 0 0
+-- Retrieval info: CONNECT: @aset 0 0 0 0 aset 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter1.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_counter1.inc FALSE
