@@ -20,31 +20,24 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 136 112)
+	(rect 16 16 112 112)
 	(text "Devider" (rect 5 0 48 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
-		(text "D[7..0]" (rect 0 0 36 14)(font "Arial" (font_size 8)))
-		(text "D[7..0]" (rect 21 27 57 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
 		(text "clk" (rect 0 0 15 14)(font "Arial" (font_size 8)))
-		(text "clk" (rect 21 43 36 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48)(line_width 1))
+		(text "clk" (rect 21 27 36 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
 	)
 	(port
-		(pt 120 32)
+		(pt 96 32)
 		(output)
 		(text "clk_D" (rect 0 0 30 14)(font "Arial" (font_size 8)))
-		(text "clk_D" (rect 69 27 99 41)(font "Arial" (font_size 8)))
-		(line (pt 120 32)(pt 104 32)(line_width 1))
+		(text "clk_D" (rect 45 27 75 41)(font "Arial" (font_size 8)))
+		(line (pt 96 32)(pt 80 32)(line_width 1))
 	)
 	(drawing
-		(rectangle (rect 16 16 104 80)(line_width 1))
+		(rectangle (rect 16 16 80 80)(line_width 1))
 	)
 )

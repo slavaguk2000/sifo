@@ -70,7 +70,7 @@ BEGIN
 
 	lpm_constant_component : lpm_constant
 	GENERIC MAP (
-		lpm_cvalue => 4,
+		lpm_cvalue => 1,
 		lpm_hint => "ENABLE_RUNTIME_MOD=NO",
 		lpm_type => "LPM_CONSTANT",
 		lpm_width => 8
@@ -91,9 +91,9 @@ END SYN;
 -- Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 -- Retrieval info: PRIVATE: Radix NUMERIC "10"
 -- Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
--- Retrieval info: PRIVATE: Value NUMERIC "4"
+-- Retrieval info: PRIVATE: Value NUMERIC "1"
 -- Retrieval info: PRIVATE: nBit NUMERIC "8"
--- Retrieval info: CONSTANT: LPM_CVALUE NUMERIC "4"
+-- Retrieval info: CONSTANT: LPM_CVALUE NUMERIC "1"
 -- Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_CONSTANT"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "8"
