@@ -1,5 +1,5 @@
 Fitter report for Lab4
-Fri Oct 18 00:10:07 2019
+Fri Oct 18 01:10:08 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -66,7 +66,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Fitter Summary                                                          ;
 +-------------------------------+-----------------------------------------+
-; Fitter Status                 ; Successful - Fri Oct 18 00:10:07 2019   ;
+; Fitter Status                 ; Successful - Fri Oct 18 01:10:08 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Lab4                                    ;
 ; Top-level Entity Name         ; Lab4                                    ;
@@ -996,15 +996,15 @@ Note: User assignments will override these defaults. The user specified values a
 ;    |lpm_counter1:inst10|                     ; 3 (0)               ; 2 (0)   ; 3 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 3 (0)                         ; |Lab4|lpm_counter1:inst10                                                                         ; work         ;
 ;       |lpm_counter:lpm_counter_component|    ; 3 (0)               ; 2 (0)   ; 3 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 3 (0)                         ; |Lab4|lpm_counter1:inst10|lpm_counter:lpm_counter_component                                       ; work         ;
 ;          |cntr_64i:auto_generated|           ; 3 (3)               ; 2 (2)   ; 3 (3)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 3 (3)                         ; |Lab4|lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_64i:auto_generated               ; work         ;
-;    |lpm_counter3:inst43|                     ; 4 (0)               ; 6 (0)   ; 4 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (0)                          ; 4 (0)              ; 0 (0)                         ; |Lab4|lpm_counter3:inst43                                                                         ; work         ;
-;       |lpm_counter:lpm_counter_component|    ; 4 (0)               ; 6 (0)   ; 4 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (0)                          ; 4 (0)              ; 0 (0)                         ; |Lab4|lpm_counter3:inst43|lpm_counter:lpm_counter_component                                       ; work         ;
-;          |cntr_qlh:auto_generated|           ; 4 (4)               ; 6 (6)   ; 4 (4)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (4)                          ; 4 (4)              ; 0 (0)                         ; |Lab4|lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated               ; work         ;
+;    |lpm_counter3:inst16|                     ; 4 (0)               ; 6 (0)   ; 4 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (0)                          ; 4 (0)              ; 0 (0)                         ; |Lab4|lpm_counter3:inst16                                                                         ; work         ;
+;       |lpm_counter:lpm_counter_component|    ; 4 (0)               ; 6 (0)   ; 4 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (0)                          ; 4 (0)              ; 0 (0)                         ; |Lab4|lpm_counter3:inst16|lpm_counter:lpm_counter_component                                       ; work         ;
+;          |cntr_qlh:auto_generated|           ; 4 (4)               ; 6 (6)   ; 4 (4)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 4 (4)                          ; 4 (4)              ; 0 (0)                         ; |Lab4|lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated               ; work         ;
 ;    |lpm_decode1:inst11|                      ; 3 (0)               ; 3 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 3 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode1:inst11                                                                          ;              ;
 ;       |lpm_decode:lpm_decode_component|      ; 3 (0)               ; 3 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 3 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode1:inst11|lpm_decode:lpm_decode_component                                          ; work         ;
 ;          |decode_u7f:auto_generated|         ; 3 (3)               ; 3 (3)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 3 (3)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated                ; work         ;
-;    |lpm_decode2:inst44|                      ; 1 (0)               ; 1 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 1 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode2:inst44                                                                          ; work         ;
-;       |lpm_decode:lpm_decode_component|      ; 1 (0)               ; 1 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 1 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode2:inst44|lpm_decode:lpm_decode_component                                          ; work         ;
-;          |decode_e9f:auto_generated|         ; 1 (1)               ; 1 (1)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 1 (1)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode2:inst44|lpm_decode:lpm_decode_component|decode_e9f:auto_generated                ; work         ;
+;    |lpm_decode2:inst15|                      ; 1 (0)               ; 1 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 1 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode2:inst15                                                                          ; work         ;
+;       |lpm_decode:lpm_decode_component|      ; 1 (0)               ; 1 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 1 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode2:inst15|lpm_decode:lpm_decode_component                                          ; work         ;
+;          |decode_e9f:auto_generated|         ; 1 (1)               ; 1 (1)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 1 (1)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_decode2:inst15|lpm_decode:lpm_decode_component|decode_e9f:auto_generated                ; work         ;
 ;    |lpm_dff2:inst4|                          ; 0 (0)               ; 10 (0)  ; 10 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (0)                        ; |Lab4|lpm_dff2:inst4                                                                              ; work         ;
 ;       |lpm_ff:lpm_ff_component|              ; 0 (0)               ; 10 (10) ; 10 (10)                   ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (10)                       ; |Lab4|lpm_dff2:inst4|lpm_ff:lpm_ff_component                                                      ; work         ;
 ;    |lpm_dff3:inst12|                         ; 0 (0)               ; 6 (0)   ; 7 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 7 (0)                         ; |Lab4|lpm_dff3:inst12                                                                             ; work         ;
@@ -1018,9 +1018,9 @@ Note: User assignments will override these defaults. The user specified values a
 ;    |lpm_mux2:inst19|                         ; 3 (0)               ; 3 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 3 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_mux2:inst19                                                                             ; work         ;
 ;       |lpm_mux:lpm_mux_component|            ; 3 (0)               ; 3 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 3 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_mux2:inst19|lpm_mux:lpm_mux_component                                                   ; work         ;
 ;          |mux_44e:auto_generated|            ; 3 (3)               ; 3 (3)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 3 (3)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|lpm_mux2:inst19|lpm_mux:lpm_mux_component|mux_44e:auto_generated                            ; work         ;
-;    |lpm_mux3:inst52|                         ; 10 (0)              ; 7 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (0)                        ; |Lab4|lpm_mux3:inst52                                                                             ; work         ;
-;       |lpm_mux:lpm_mux_component|            ; 10 (0)              ; 7 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (0)                        ; |Lab4|lpm_mux3:inst52|lpm_mux:lpm_mux_component                                                   ; work         ;
-;          |mux_i5e:auto_generated|            ; 10 (10)             ; 7 (7)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (10)                       ; |Lab4|lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated                            ; work         ;
+;    |lpm_mux3:inst23|                         ; 10 (0)              ; 7 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (0)                        ; |Lab4|lpm_mux3:inst23                                                                             ; work         ;
+;       |lpm_mux:lpm_mux_component|            ; 10 (0)              ; 7 (0)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (0)                        ; |Lab4|lpm_mux3:inst23|lpm_mux:lpm_mux_component                                                   ; work         ;
+;          |mux_i5e:auto_generated|            ; 10 (10)             ; 7 (7)   ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 10 (10)                       ; |Lab4|lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated                            ; work         ;
 ;    |memory:inst|                             ; 0 (0)               ; 0 (0)   ; 0 (0)                     ; 0 (0)         ; 1280              ; 0     ; 1    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|memory:inst                                                                                 ; work         ;
 ;       |lpm_rom4:inst|                        ; 0 (0)               ; 0 (0)   ; 0 (0)                     ; 0 (0)         ; 1280              ; 0     ; 1    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|memory:inst|lpm_rom4:inst                                                                   ;              ;
 ;          |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)   ; 0 (0)                     ; 0 (0)         ; 1280              ; 0     ; 1    ; 0      ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; 0 (0)                          ; 0 (0)              ; 0 (0)                         ; |Lab4|memory:inst|lpm_rom4:inst|altsyncram:altsyncram_component                                   ;              ;
@@ -1164,25 +1164,25 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_64i:auto_generated|safe_q[1]                        ; 19      ;
 ; lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_64i:auto_generated|safe_q[2]                        ; 19      ;
 ; lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_64i:auto_generated|safe_q[0]                        ; 18      ;
-; lpm_decode2:inst44|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode91w[3]                     ; 14      ;
-; lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]                        ; 14      ;
-; lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]                        ; 13      ;
-; lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]                        ; 12      ;
-; lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]                        ; 11      ;
+; lpm_decode2:inst15|lpm_decode:lpm_decode_component|decode_e9f:auto_generated|w_anode91w[3]                     ; 14      ;
+; lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[0]                        ; 14      ;
+; lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[1]                        ; 13      ;
+; lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[2]                        ; 12      ;
+; lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]                        ; 11      ;
 ; inst47                                                                                                         ; 10      ;
 ; GPR:inst1|lpm_bustri0:inst26|lpm_bustri:lpm_bustri_component|dout[9]~0                                         ; 10      ;
 ; Devider:inst24|lpm_compare2:inst|lpm_compare:lpm_compare_component|cmpr_fig:auto_generated|aneb_result_wire[0] ; 9       ;
 ; lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated|w_anode30w[3]~0                   ; 9       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w1_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w2_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w3_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w4_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w5_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w6_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w7_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w8_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w9_n0_mux_dataout~0                        ; 8       ;
-; lpm_mux3:inst52|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w0_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w1_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w2_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w3_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w4_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w5_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w6_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w7_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w8_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w9_n0_mux_dataout~0                        ; 8       ;
+; lpm_mux3:inst23|lpm_mux:lpm_mux_component|mux_i5e:auto_generated|l1_w0_n0_mux_dataout~0                        ; 8       ;
 ; inst5                                                                                                          ; 8       ;
 ; lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[7]                                                                 ; 5       ;
 ; lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[8]                                                                 ; 5       ;
@@ -1548,7 +1548,7 @@ This will disable optimization of problematic paths and expose them for further 
 Info: *******************************************************************
 Info: Running Quartus II Fitter
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Fri Oct 18 00:10:04 2019
+    Info: Processing started: Fri Oct 18 01:10:05 2019
 Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off Lab4 -c Lab4
 Info: Automatically selected device EP2S15F484C3 for design Lab4
 Info: Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
@@ -1772,8 +1772,8 @@ Info: Delay annotation completed successfully
 Warning: The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
 Info: Quartus II Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 292 megabytes
-    Info: Processing ended: Fri Oct 18 00:10:07 2019
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Fri Oct 18 01:10:09 2019
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:04
 
 

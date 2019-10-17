@@ -31,17 +31,17 @@ applicable agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 1))
 	)
 	(port
-		(pt 112 96)
+		(pt 80 96)
 		(input)
-		(text "aset" (rect 0 0 14 24)(font "Arial" (font_size 8))(vertical))
-		(text "aset" (rect 105 57 118 76)(font "Arial" (font_size 8))(vertical))
-		(line (pt 112 96)(pt 112 80)(line_width 1))
+		(text "aclr" (rect 0 0 14 21)(font "Arial" (font_size 8))(vertical))
+		(text "aclr" (rect 73 59 86 76)(font "Arial" (font_size 8))(vertical))
+		(line (pt 80 96)(pt 80 80)(line_width 1))
 	)
 	(port
 		(pt 144 40)
 		(output)
-		(text "q[2..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "q[2..0]" (rect 95 34 125 47)(font "Arial" (font_size 8)))
+		(text "q[1..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "q[1..0]" (rect 95 34 125 47)(font "Arial" (font_size 8)))
 		(line (pt 144 40)(pt 128 40)(line_width 3))
 	)
 	(drawing

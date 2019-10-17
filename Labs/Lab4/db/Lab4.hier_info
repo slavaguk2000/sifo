@@ -24,7 +24,7 @@ dataBus[8] <= gdfx_temp0[8].DB_MAX_OUTPUT_PORT_TYPE
 dataBus[9] <= gdfx_temp0[9].DB_MAX_OUTPUT_PORT_TYPE
 read/write_mem <= lpm_decode1:inst11.eq2
 clkDiv <= Devider:inst24.clk_D
-read_reg <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+read_reg <= inst28.DB_MAX_OUTPUT_PORT_TYPE
 counter_work <= RS-trigger:inst21.out
 signal_to_mov <= FRONT_TO_SIGNAL:inst9.SIGNAL
 mov_front <= inst57.DB_MAX_OUTPUT_PORT_TYPE
@@ -49,7 +49,6 @@ loaded_address[5] <= lpm_add_sub0:inst3.result[5]
 loaded_address[6] <= lpm_add_sub0:inst3.result[6]
 reg_counter[0] <= lpm_counter1:inst10.q[0]
 reg_counter[1] <= lpm_counter1:inst10.q[1]
-reg_counter[2] <= lpm_counter1:inst10.q[2]
 reg_num[0] <= lpm_mux2:inst18.result[0]
 reg_num[1] <= lpm_mux2:inst18.result[1]
 reg_num[2] <= lpm_mux2:inst18.result[2]
@@ -58,85 +57,54 @@ reg_num[2] <= lpm_mux2:inst18.result[2]
 |Lab4|lpm_decode1:inst11
 data[0] => lpm_decode:lpm_decode_component.data[0]
 data[1] => lpm_decode:lpm_decode_component.data[1]
-data[2] => lpm_decode:lpm_decode_component.data[2]
 eq0 <= lpm_decode:lpm_decode_component.eq[0]
 eq1 <= lpm_decode:lpm_decode_component.eq[1]
 eq2 <= lpm_decode:lpm_decode_component.eq[2]
 eq3 <= lpm_decode:lpm_decode_component.eq[3]
-eq4 <= lpm_decode:lpm_decode_component.eq[4]
-eq5 <= lpm_decode:lpm_decode_component.eq[5]
-eq6 <= lpm_decode:lpm_decode_component.eq[6]
-eq7 <= lpm_decode:lpm_decode_component.eq[7]
 
 
 |Lab4|lpm_decode1:inst11|lpm_decode:lpm_decode_component
-data[0] => decode_u7f:auto_generated.data[0]
-data[1] => decode_u7f:auto_generated.data[1]
-data[2] => decode_u7f:auto_generated.data[2]
+data[0] => decode_p7f:auto_generated.data[0]
+data[1] => decode_p7f:auto_generated.data[1]
 enable => ~NO_FANOUT~
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
-eq[0] <= decode_u7f:auto_generated.eq[0]
-eq[1] <= decode_u7f:auto_generated.eq[1]
-eq[2] <= decode_u7f:auto_generated.eq[2]
-eq[3] <= decode_u7f:auto_generated.eq[3]
-eq[4] <= decode_u7f:auto_generated.eq[4]
-eq[5] <= decode_u7f:auto_generated.eq[5]
-eq[6] <= decode_u7f:auto_generated.eq[6]
-eq[7] <= decode_u7f:auto_generated.eq[7]
+eq[0] <= decode_p7f:auto_generated.eq[0]
+eq[1] <= decode_p7f:auto_generated.eq[1]
+eq[2] <= decode_p7f:auto_generated.eq[2]
+eq[3] <= decode_p7f:auto_generated.eq[3]
 
 
-|Lab4|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_u7f:auto_generated
-data[0] => w_anode19w[1].IN1
-data[0] => w_anode1w[1]~2.IN0
-data[0] => w_anode30w[1]~1.IN0
-data[0] => w_anode41w[1].IN1
-data[0] => w_anode52w[1]~1.IN0
-data[0] => w_anode63w[1].IN1
-data[0] => w_anode74w[1]~0.IN0
-data[0] => w_anode85w[1].IN1
-data[1] => w_anode19w[2]~1.IN0
-data[1] => w_anode1w[2]~1.IN0
-data[1] => w_anode30w[2].IN1
-data[1] => w_anode41w[2].IN1
-data[1] => w_anode52w[2]~0.IN0
-data[1] => w_anode63w[2]~0.IN0
-data[1] => w_anode74w[2].IN1
-data[1] => w_anode85w[2].IN1
-data[2] => w_anode19w[3]~0.IN0
-data[2] => w_anode1w[3]~0.IN0
-data[2] => w_anode30w[3]~0.IN0
-data[2] => w_anode41w[3]~0.IN0
-data[2] => w_anode52w[3].IN1
-data[2] => w_anode63w[3].IN1
-data[2] => w_anode74w[3].IN1
-data[2] => w_anode85w[3].IN1
-eq[0] <= w_anode1w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[1] <= w_anode19w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[2] <= w_anode30w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[3] <= w_anode41w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[4] <= w_anode52w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[5] <= w_anode63w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[6] <= w_anode74w[3].DB_MAX_OUTPUT_PORT_TYPE
-eq[7] <= w_anode85w[3].DB_MAX_OUTPUT_PORT_TYPE
+|Lab4|lpm_decode1:inst11|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+data[0] => w_anode15w[1].IN1
+data[0] => w_anode1w[1]~1.IN0
+data[0] => w_anode24w[1]~0.IN0
+data[0] => w_anode33w[1].IN1
+data[1] => w_anode15w[2]~0.IN0
+data[1] => w_anode1w[2]~0.IN0
+data[1] => w_anode24w[2].IN1
+data[1] => w_anode33w[2].IN1
+eq[0] <= w_anode1w[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[1] <= w_anode15w[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[2] <= w_anode24w[2].DB_MAX_OUTPUT_PORT_TYPE
+eq[3] <= w_anode33w[2].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Lab4|lpm_counter1:inst10
-aset => lpm_counter:lpm_counter_component.aset
+aclr => lpm_counter:lpm_counter_component.aclr
 clock => lpm_counter:lpm_counter_component.clock
 q[0] <= lpm_counter:lpm_counter_component.q[0]
 q[1] <= lpm_counter:lpm_counter_component.q[1]
-q[2] <= lpm_counter:lpm_counter_component.q[2]
 
 
 |Lab4|lpm_counter1:inst10|lpm_counter:lpm_counter_component
-clock => cntr_64i:auto_generated.clock
+clock => cntr_q3i:auto_generated.clock
 clk_en => ~NO_FANOUT~
 cnt_en => ~NO_FANOUT~
 updown => ~NO_FANOUT~
-aclr => ~NO_FANOUT~
-aset => cntr_64i:auto_generated.aset
+aclr => cntr_q3i:auto_generated.aclr
+aset => ~NO_FANOUT~
 aconst => ~NO_FANOUT~
 aload => ~NO_FANOUT~
 sclr => ~NO_FANOUT~
@@ -145,11 +113,9 @@ sconst => ~NO_FANOUT~
 sload => ~NO_FANOUT~
 data[0] => ~NO_FANOUT~
 data[1] => ~NO_FANOUT~
-data[2] => ~NO_FANOUT~
 cin => ~NO_FANOUT~
-q[0] <= cntr_64i:auto_generated.q[0]
-q[1] <= cntr_64i:auto_generated.q[1]
-q[2] <= cntr_64i:auto_generated.q[2]
+q[0] <= cntr_q3i:auto_generated.q[0]
+q[1] <= cntr_q3i:auto_generated.q[1]
 cout <= <GND>
 eq[0] <= <GND>
 eq[1] <= <GND>
@@ -169,19 +135,16 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|Lab4|lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_64i:auto_generated
-aset => counter_reg_bit1a[2].ALOAD
-aset => counter_reg_bit1a[1].ALOAD
-aset => counter_reg_bit1a[0].ALOAD
-clock => counter_reg_bit1a[2].CLK
+|Lab4|lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_q3i:auto_generated
+aclr => counter_reg_bit1a[1].ACLR
+aclr => counter_reg_bit1a[0].ACLR
 clock => counter_reg_bit1a[1].CLK
 clock => counter_reg_bit1a[0].CLK
 q[0] <= counter_reg_bit1a[0].REGOUT
 q[1] <= counter_reg_bit1a[1].REGOUT
-q[2] <= counter_reg_bit1a[2].REGOUT
 
 
-|Lab4|lpm_decode2:inst44
+|Lab4|lpm_decode2:inst15
 data[0] => lpm_decode:lpm_decode_component.data[0]
 data[1] => lpm_decode:lpm_decode_component.data[1]
 data[2] => lpm_decode:lpm_decode_component.data[2]
@@ -189,7 +152,7 @@ data[3] => lpm_decode:lpm_decode_component.data[3]
 eq8 <= lpm_decode:lpm_decode_component.eq[8]
 
 
-|Lab4|lpm_decode2:inst44|lpm_decode:lpm_decode_component
+|Lab4|lpm_decode2:inst15|lpm_decode:lpm_decode_component
 data[0] => decode_e9f:auto_generated.data[0]
 data[1] => decode_e9f:auto_generated.data[1]
 data[2] => decode_e9f:auto_generated.data[2]
@@ -216,7 +179,7 @@ eq[14] <= decode_e9f:auto_generated.eq[14]
 eq[15] <= decode_e9f:auto_generated.eq[15]
 
 
-|Lab4|lpm_decode2:inst44|lpm_decode:lpm_decode_component|decode_e9f:auto_generated
+|Lab4|lpm_decode2:inst15|lpm_decode:lpm_decode_component|decode_e9f:auto_generated
 data[0] => w_anode102w[1].IN1
 data[0] => w_anode112w[1]~1.IN0
 data[0] => w_anode122w[1].IN1
@@ -292,7 +255,7 @@ eq[14] <= w_anode152w[3].DB_MAX_OUTPUT_PORT_TYPE
 eq[15] <= w_anode162w[3].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Lab4|lpm_counter3:inst43
+|Lab4|lpm_counter3:inst16
 clock => lpm_counter:lpm_counter_component.clock
 q[0] <= lpm_counter:lpm_counter_component.q[0]
 q[1] <= lpm_counter:lpm_counter_component.q[1]
@@ -300,7 +263,7 @@ q[2] <= lpm_counter:lpm_counter_component.q[2]
 q[3] <= lpm_counter:lpm_counter_component.q[3]
 
 
-|Lab4|lpm_counter3:inst43|lpm_counter:lpm_counter_component
+|Lab4|lpm_counter3:inst16|lpm_counter:lpm_counter_component
 clock => cntr_qlh:auto_generated.clock
 clk_en => ~NO_FANOUT~
 cnt_en => ~NO_FANOUT~
@@ -341,7 +304,7 @@ eq[14] <= <GND>
 eq[15] <= <GND>
 
 
-|Lab4|lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated
+|Lab4|lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated
 clock => counter_reg_bit1a[3].CLK
 clock => counter_reg_bit1a[2].CLK
 clock => counter_reg_bit1a[1].CLK
@@ -2751,7 +2714,7 @@ q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
 q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Lab4|lpm_mux3:inst52
+|Lab4|lpm_mux3:inst23
 data0x[0] => LPM_MUX:lpm_mux_component.DATA[0][0]
 data0x[1] => LPM_MUX:lpm_mux_component.DATA[0][1]
 data0x[2] => LPM_MUX:lpm_mux_component.DATA[0][2]
@@ -2785,7 +2748,7 @@ result[8] <= LPM_MUX:lpm_mux_component.RESULT[8]
 result[9] <= LPM_MUX:lpm_mux_component.RESULT[9]
 
 
-|Lab4|lpm_mux3:inst52|LPM_MUX:lpm_mux_component
+|Lab4|lpm_mux3:inst23|LPM_MUX:lpm_mux_component
 data[0][0] => mux_i5e:auto_generated.data[0]
 data[0][1] => mux_i5e:auto_generated.data[1]
 data[0][2] => mux_i5e:auto_generated.data[2]
@@ -2822,7 +2785,7 @@ result[8] <= mux_i5e:auto_generated.result[8]
 result[9] <= mux_i5e:auto_generated.result[9]
 
 
-|Lab4|lpm_mux3:inst52|LPM_MUX:lpm_mux_component|mux_i5e:auto_generated
+|Lab4|lpm_mux3:inst23|LPM_MUX:lpm_mux_component|mux_i5e:auto_generated
 data[0] => l1_w0_n0_mux_dataout~1.IN1
 data[1] => l1_w1_n0_mux_dataout~1.IN1
 data[2] => l1_w2_n0_mux_dataout~1.IN1
@@ -2875,7 +2838,7 @@ sel[0] => l1_w9_n0_mux_dataout~0.IN0
 sel[0] => _~9.IN0
 
 
-|Lab4|lpm_add_sub1:inst45
+|Lab4|lpm_add_sub1:inst26
 datab[0] => lpm_add_sub:lpm_add_sub_component.datab[0]
 datab[1] => lpm_add_sub:lpm_add_sub_component.datab[1]
 datab[2] => lpm_add_sub:lpm_add_sub_component.datab[2]
@@ -2898,7 +2861,7 @@ result[8] <= lpm_add_sub:lpm_add_sub_component.result[8]
 result[9] <= lpm_add_sub:lpm_add_sub_component.result[9]
 
 
-|Lab4|lpm_add_sub1:inst45|lpm_add_sub:lpm_add_sub_component
+|Lab4|lpm_add_sub1:inst26|lpm_add_sub:lpm_add_sub_component
 dataa[0] => add_sub_crh:auto_generated.dataa[0]
 dataa[1] => add_sub_crh:auto_generated.dataa[1]
 dataa[2] => add_sub_crh:auto_generated.dataa[2]
@@ -2938,7 +2901,7 @@ cout <= <GND>
 overflow <= <GND>
 
 
-|Lab4|lpm_add_sub1:inst45|lpm_add_sub:lpm_add_sub_component|add_sub_crh:auto_generated
+|Lab4|lpm_add_sub1:inst26|lpm_add_sub:lpm_add_sub_component|add_sub_crh:auto_generated
 dataa[0] => op_1.IN19
 dataa[1] => op_1.IN17
 dataa[2] => op_1.IN15
@@ -2971,7 +2934,7 @@ result[8] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 result[9] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Lab4|lpm_constant1:inst54
+|Lab4|lpm_constant1:inst27
 result[0] <= lpm_constant:lpm_constant_component.result[0]
 result[1] <= lpm_constant:lpm_constant_component.result[1]
 result[2] <= lpm_constant:lpm_constant_component.result[2]
@@ -2980,7 +2943,7 @@ result[4] <= lpm_constant:lpm_constant_component.result[4]
 result[5] <= lpm_constant:lpm_constant_component.result[5]
 
 
-|Lab4|lpm_constant1:inst54|lpm_constant:lpm_constant_component
+|Lab4|lpm_constant1:inst27|lpm_constant:lpm_constant_component
 result[0] <= <VCC>
 result[1] <= <VCC>
 result[2] <= <VCC>

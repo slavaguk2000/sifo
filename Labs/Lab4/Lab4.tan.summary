@@ -26,7 +26,7 @@ Type           : Clock Hold: 'clk'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : lpm_counter3:inst43|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]
+From           : lpm_counter3:inst16|lpm_counter:lpm_counter_component|cntr_qlh:auto_generated|safe_q[3]
 To             : GPR:inst1|lpm_dff1:inst31|lpm_ff:lpm_ff_component|dffs[9]
 From Clock     : clk
 To Clock       : clk
