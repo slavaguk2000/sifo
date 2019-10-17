@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Lab3
-Tue Oct 08 03:28:05 2019
+Wed Oct 16 00:02:45 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -23,7 +23,7 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  15. Source assignments for MemoryBlock:inst14|LPM_ROM:inst|altrom:srom|altsyncram:rom_block|altsyncram_bmv:auto_generated
  16. Source assignments for MemoryBlock:inst14|Buffer:inst8|lpm_counter0:inst29|lpm_counter:lpm_counter_component
  17. Source assignments for MemoryBlock:inst14|Buffer:inst8|lpm_counter0:inst|lpm_counter:lpm_counter_component
- 18. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+ 18. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component
  19. Parameter Settings for User Entity Instance: Driver:inst|lpm_compare6:inst5|lpm_compare:lpm_compare_component
  20. Parameter Settings for User Entity Instance: Driver:inst|lpm_counter3:inst2|lpm_counter:lpm_counter_component
  21. Parameter Settings for User Entity Instance: Driver:inst|lpm_compare5:inst24|lpm_compare:lpm_compare_component
@@ -32,26 +32,26 @@ Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
  24. Parameter Settings for User Entity Instance: Driver:inst|lpm_compare4:inst21|lpm_compare:lpm_compare_component
  25. Parameter Settings for User Entity Instance: Driver:inst|lpm_compare2:inst14|lpm_compare:lpm_compare_component
  26. Parameter Settings for User Entity Instance: Driver:inst|lpm_compare3:inst15|lpm_compare:lpm_compare_component
- 27. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+ 27. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component
  28. Parameter Settings for User Entity Instance: Driver:inst|lpm_compare5:inst27|lpm_compare:lpm_compare_component
  29. Parameter Settings for User Entity Instance: Driver:inst|lpm_counter4:inst8|lpm_counter:lpm_counter_component
- 30. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst23|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+ 30. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst23|lpm_dff2:inst7|lpm_ff:lpm_ff_component
  31. Parameter Settings for User Entity Instance: Driver:inst|lpm_add_sub1:inst12|lpm_add_sub:lpm_add_sub_component
  32. Parameter Settings for User Entity Instance: Driver:inst|lpm_mux3:inst13|LPM_MUX:lpm_mux_component
- 33. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst26|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+ 33. Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst26|lpm_dff2:inst7|lpm_ff:lpm_ff_component
  34. Parameter Settings for User Entity Instance: MemoryBlock:inst14|lpm_bustri3:inst6|lpm_bustri:lpm_bustri_component
  35. Parameter Settings for User Entity Instance: MemoryBlock:inst14|lpm_ram_dq0:inst2|altsyncram:altsyncram_component
  36. Parameter Settings for User Entity Instance: MemoryBlock:inst14|lpm_bustri3:inst4|lpm_bustri:lpm_bustri_component
  37. Parameter Settings for User Entity Instance: MemoryBlock:inst14|LPM_ROM:inst
  38. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_bustri2:inst1|lpm_bustri:lpm_bustri_component
- 39. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+ 39. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component
  40. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_compare1:inst26|lpm_compare:lpm_compare_component
  41. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_counter0:inst29|lpm_counter:lpm_counter_component
  42. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_mux0:inst23|LPM_MUX:lpm_mux_component
  43. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component
  44. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_decode0:inst2|lpm_decode:lpm_decode_component
  45. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_counter0:inst|lpm_counter:lpm_counter_component
- 46. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+ 46. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff2:inst7|lpm_ff:lpm_ff_component
  47. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_compare0:inst3|lpm_compare:lpm_compare_component
  48. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_add_sub0:inst27|lpm_add_sub:lpm_add_sub_component
  49. Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst11|lpm_ff:lpm_ff_component
@@ -87,7 +87,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Tue Oct 08 03:28:05 2019   ;
+; Analysis & Synthesis Status   ; Successful - Wed Oct 16 00:02:45 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Lab3                                    ;
 ; Top-level Entity Name         ; Lab3                                    ;
@@ -191,73 +191,73 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 ; Processors                 ; Number ;
 +----------------------------+--------+
-; Number detected on machine ; 4      ;
+; Number detected on machine ; 6      ;
 ; Maximum allowed            ; 1      ;
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                           ;
-+----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                        ;
-+----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
-; Lab3.bdf                         ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5/SIFO/Labs/Lab3/Lab3.bdf                                 ;
-; rom.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/UNIVER/5/SIFO/Labs/Lab3/rom.hex                                  ;
-; lpm_dff0.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_dff0.vhd                             ;
-; lpm_counter0.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_counter0.vhd                         ;
-; lpm_decode0.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_decode0.vhd                          ;
-; lpm_dff1.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_dff1.vhd                             ;
-; Buffer.bdf                       ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5/SIFO/Labs/Lab3/Buffer.bdf                               ;
-; RS-trigger.bdf                   ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5/SIFO/Labs/Lab3/RS-trigger.bdf                           ;
-; lpm_mux0.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_mux0.vhd                             ;
-; lpm_compare1.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare1.vhd                         ;
-; FRONT_TO_SIGNAL.bdf              ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5/SIFO/Labs/Lab3/FRONT_TO_SIGNAL.bdf                      ;
-; lpm_bustri2.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_bustri2.vhd                          ;
-; lpm_add_sub0.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_add_sub0.vhd                         ;
-; lpm_bustri3.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_bustri3.vhd                          ;
-; ram.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/UNIVER/5/SIFO/Labs/Lab3/ram.hex                                  ;
-; lpm_ram_dq0.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_ram_dq0.vhd                          ;
-; lpm_counter2.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_counter2.vhd                         ;
-; lpm_add_sub1.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_add_sub1.vhd                         ;
-; lpm_compare2.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare2.vhd                         ;
-; lpm_compare3.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare3.vhd                         ;
-; lpm_compare4.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare4.vhd                         ;
-; lpm_compare5.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare5.vhd                         ;
-; lpm_counter3.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_counter3.vhd                         ;
-; lpm_add_sub2.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_add_sub2.vhd                         ;
-; lpm_counter4.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_counter4.vhd                         ;
-; lpm_mux3.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_mux3.vhd                             ;
-; MemoryBlock.bdf                  ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5/SIFO/Labs/Lab3/MemoryBlock.bdf                          ;
-; Driver.bdf                       ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5/SIFO/Labs/Lab3/Driver.bdf                               ;
-; lpm_ff.tdf                       ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_ff.tdf      ;
-; lpm_compare6.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare6.tdf                         ;
-; lpm_compare.inc                  ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_compare.inc ;
-; lpm_compare.tdf                  ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_compare.tdf ;
-; db/cmpr_fig.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cmpr_fig.tdf                          ;
-; lpm_counter.tdf                  ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_counter.tdf ;
-; db/cntr_04i.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cntr_04i.tdf                          ;
-; db/cmpr_aig.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cmpr_aig.tdf                          ;
-; db/cntr_83j.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cntr_83j.tdf                          ;
-; lpm_add_sub.tdf                  ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_add_sub.tdf ;
-; db/add_sub_2ph.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/add_sub_2ph.tdf                       ;
-; db/cmpr_lni.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cmpr_lni.tdf                          ;
-; db/cmpr_h8j.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cmpr_h8j.tdf                          ;
-; db/cntr_r3i.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/cntr_r3i.tdf                          ;
-; db/add_sub_clh.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/add_sub_clh.tdf                       ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_mux.tdf     ;
-; db/mux_44e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/mux_44e.tdf                           ;
-; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_bustri.tdf  ;
-; altsyncram.tdf                   ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/altsyncram.tdf  ;
-; db/altsyncram_4jc1.tdf           ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/altsyncram_4jc1.tdf                   ;
-; lpm_rom.tdf                      ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_rom.tdf     ;
-; altrom.tdf                       ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/altrom.tdf      ;
-; db/altsyncram_bmv.tdf            ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/altsyncram_bmv.tdf                    ;
-; db/mux_g4e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/mux_g4e.tdf                           ;
-; lpm_decode.tdf                   ; yes             ; Megafunction                          ; d:/programs/quartus/quartus/libraries/megafunctions/lpm_decode.tdf  ;
-; db/decode_u7f.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/decode_u7f.tdf                        ;
-; lpm_compare0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; D:/UNIVER/5/SIFO/Labs/Lab3/lpm_compare0.tdf                         ;
-; db/add_sub_uph.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5/SIFO/Labs/Lab3/db/add_sub_uph.tdf                       ;
-+----------------------------------+-----------------+---------------------------------------+---------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                    ;
++----------------------------------+-----------------+---------------------------------------+--------------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                             ; File Name with Absolute Path                                 ;
++----------------------------------+-----------------+---------------------------------------+--------------------------------------------------------------+
+; Lab3.bdf                         ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/Lab3.bdf                 ;
+; rom.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/rom.hex                  ;
+; lpm_dff0.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_dff0.vhd             ;
+; lpm_counter0.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_counter0.vhd         ;
+; lpm_decode0.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_decode0.vhd          ;
+; Buffer.bdf                       ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/Buffer.bdf               ;
+; RS-trigger.bdf                   ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/RS-trigger.bdf           ;
+; lpm_mux0.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_mux0.vhd             ;
+; lpm_compare1.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare1.vhd         ;
+; FRONT_TO_SIGNAL.bdf              ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/FRONT_TO_SIGNAL.bdf      ;
+; lpm_bustri2.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_bustri2.vhd          ;
+; lpm_add_sub0.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_add_sub0.vhd         ;
+; lpm_bustri3.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_bustri3.vhd          ;
+; ram.hex                          ; yes             ; User Hexadecimal (Intel-Format) File  ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/ram.hex                  ;
+; lpm_ram_dq0.vhd                  ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_ram_dq0.vhd          ;
+; lpm_counter2.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_counter2.vhd         ;
+; lpm_add_sub1.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_add_sub1.vhd         ;
+; lpm_compare2.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare2.vhd         ;
+; lpm_compare3.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare3.vhd         ;
+; lpm_compare4.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare4.vhd         ;
+; lpm_compare5.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare5.vhd         ;
+; lpm_counter3.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_counter3.vhd         ;
+; lpm_add_sub2.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_add_sub2.vhd         ;
+; lpm_counter4.vhd                 ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_counter4.vhd         ;
+; lpm_mux3.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_mux3.vhd             ;
+; MemoryBlock.bdf                  ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/MemoryBlock.bdf          ;
+; Driver.bdf                       ; yes             ; User Block Diagram/Schematic File     ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/Driver.bdf               ;
+; lpm_dff2.vhd                     ; yes             ; User Wizard-Generated File            ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_dff2.vhd             ;
+; lpm_ff.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_ff.tdf      ;
+; lpm_compare6.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare6.tdf         ;
+; lpm_compare.inc                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_compare.inc ;
+; lpm_compare.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_compare.tdf ;
+; db/cmpr_fig.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cmpr_fig.tdf          ;
+; lpm_counter.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_counter.tdf ;
+; db/cntr_04i.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cntr_04i.tdf          ;
+; db/cmpr_aig.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cmpr_aig.tdf          ;
+; db/cntr_83j.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cntr_83j.tdf          ;
+; lpm_add_sub.tdf                  ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_add_sub.tdf ;
+; db/add_sub_2ph.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/add_sub_2ph.tdf       ;
+; db/cmpr_lni.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cmpr_lni.tdf          ;
+; db/cmpr_h8j.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cmpr_h8j.tdf          ;
+; db/cntr_r3i.tdf                  ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/cntr_r3i.tdf          ;
+; db/add_sub_clh.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/add_sub_clh.tdf       ;
+; lpm_mux.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_mux.tdf     ;
+; db/mux_44e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/mux_44e.tdf           ;
+; lpm_bustri.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_bustri.tdf  ;
+; altsyncram.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/altsyncram.tdf  ;
+; db/altsyncram_4jc1.tdf           ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/altsyncram_4jc1.tdf   ;
+; lpm_rom.tdf                      ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_rom.tdf     ;
+; altrom.tdf                       ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/altrom.tdf      ;
+; db/altsyncram_bmv.tdf            ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/altsyncram_bmv.tdf    ;
+; db/mux_g4e.tdf                   ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/mux_g4e.tdf           ;
+; lpm_decode.tdf                   ; yes             ; Megafunction                          ; c:/altera/91/quartus/libraries/megafunctions/lpm_decode.tdf  ;
+; db/decode_u7f.tdf                ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/decode_u7f.tdf        ;
+; lpm_compare0.tdf                 ; yes             ; Auto-Found Wizard-Generated File      ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/lpm_compare0.tdf         ;
+; db/add_sub_uph.tdf               ; yes             ; Auto-Generated Megafunction           ; D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab3/db/add_sub_uph.tdf       ;
++----------------------------------+-----------------+---------------------------------------+--------------------------------------------------------------+
 
 
 +-------------------------------------------------------+
@@ -310,17 +310,17 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |Driver:inst|                                ; 49 (5)            ; 19 (0)       ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst                                                                                                   ;              ;
 ;       |FRONT_TO_SIGNAL:inst11|                  ; 2 (2)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|FRONT_TO_SIGNAL:inst11                                                                            ; work         ;
 ;       |RS-trigger:inst20|                       ; 2 (1)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst20                                                                                 ; work         ;
-;          |lpm_dff1:inst4|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst20|lpm_dff1:inst4                                                                  ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component                                          ; work         ;
+;          |lpm_dff2:inst7|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst20|lpm_dff2:inst7                                                                  ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component                                          ; work         ;
 ;       |RS-trigger:inst22|                       ; 2 (1)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst22                                                                                 ; work         ;
-;          |lpm_dff1:inst4|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst22|lpm_dff1:inst4                                                                  ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component                                          ; work         ;
+;          |lpm_dff2:inst7|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst22|lpm_dff2:inst7                                                                  ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component                                          ; work         ;
 ;       |RS-trigger:inst23|                       ; 2 (1)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst23                                                                                 ; work         ;
-;          |lpm_dff1:inst4|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst23|lpm_dff1:inst4                                                                  ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst23|lpm_dff1:inst4|lpm_ff:lpm_ff_component                                          ; work         ;
+;          |lpm_dff2:inst7|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst23|lpm_dff2:inst7                                                                  ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst23|lpm_dff2:inst7|lpm_ff:lpm_ff_component                                          ; work         ;
 ;       |RS-trigger:inst26|                       ; 2 (1)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst26                                                                                 ; work         ;
-;          |lpm_dff1:inst4|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst26|lpm_dff1:inst4                                                                  ; work         ;
-;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst26|lpm_dff1:inst4|lpm_ff:lpm_ff_component                                          ; work         ;
+;          |lpm_dff2:inst7|                       ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst26|lpm_dff2:inst7                                                                  ; work         ;
+;             |lpm_ff:lpm_ff_component|           ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|RS-trigger:inst26|lpm_dff2:inst7|lpm_ff:lpm_ff_component                                          ; work         ;
 ;       |lpm_add_sub1:inst12|                     ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|lpm_add_sub1:inst12                                                                               ; work         ;
 ;          |lpm_add_sub:lpm_add_sub_component|    ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|lpm_add_sub1:inst12|lpm_add_sub:lpm_add_sub_component                                             ; work         ;
 ;             |add_sub_clh:auto_generated|        ; 6 (6)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|Driver:inst|lpm_add_sub1:inst12|lpm_add_sub:lpm_add_sub_component|add_sub_clh:auto_generated                  ; work         ;
@@ -353,11 +353,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |FRONT_TO_SIGNAL:inst33|               ; 2 (2)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|FRONT_TO_SIGNAL:inst33                                                        ; work         ;
 ;          |FRONT_TO_SIGNAL:inst34|               ; 2 (2)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|FRONT_TO_SIGNAL:inst34                                                        ; work         ;
 ;          |RS-trigger:inst14|                    ; 2 (1)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14                                                             ; work         ;
-;             |lpm_dff1:inst4|                    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff1:inst4                                              ; work         ;
-;                |lpm_ff:lpm_ff_component|        ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff1:inst4|lpm_ff:lpm_ff_component                      ; work         ;
+;             |lpm_dff2:inst7|                    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff2:inst7                                              ; work         ;
+;                |lpm_ff:lpm_ff_component|        ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff2:inst7|lpm_ff:lpm_ff_component                      ; work         ;
 ;          |RS-trigger:inst22|                    ; 2 (1)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22                                                             ; work         ;
-;             |lpm_dff1:inst4|                    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff1:inst4                                              ; work         ;
-;                |lpm_ff:lpm_ff_component|        ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component                      ; work         ;
+;             |lpm_dff2:inst7|                    ; 1 (0)             ; 1 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff2:inst7                                              ; work         ;
+;                |lpm_ff:lpm_ff_component|        ; 1 (1)             ; 1 (1)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component                      ; work         ;
 ;          |lpm_compare0:inst3|                   ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|lpm_compare0:inst3                                                            ; work         ;
 ;             |lpm_compare:lpm_compare_component| ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|lpm_compare0:inst3|lpm_compare:lpm_compare_component                          ; work         ;
 ;                |cmpr_aig:auto_generated|        ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |Lab3|MemoryBlock:inst14|Buffer:inst8|lpm_compare0:inst3|lpm_compare:lpm_compare_component|cmpr_aig:auto_generated  ; work         ;
@@ -508,7 +508,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-----------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                        ;
 +------------------------+------------+-----------------------------------------------------------------------------+
@@ -729,7 +729,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-----------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                        ;
 +------------------------+------------+-----------------------------------------------------------------------------+
@@ -799,7 +799,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst23|lpm_dff1:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst23|lpm_dff2:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-----------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                        ;
 +------------------------+------------+-----------------------------------------------------------------------------+
@@ -865,7 +865,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst26|lpm_dff1:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: Driver:inst|RS-trigger:inst26|lpm_dff2:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-----------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                        ;
 +------------------------+------------+-----------------------------------------------------------------------------+
@@ -993,7 +993,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-------------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                            ;
 +------------------------+------------+-------------------------------------------------------------------------------------------------+
@@ -1147,7 +1147,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff1:inst4|lpm_ff:lpm_ff_component ;
+; Parameter Settings for User Entity Instance: MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|lpm_dff2:inst7|lpm_ff:lpm_ff_component ;
 +------------------------+------------+-------------------------------------------------------------------------------------------------+
 ; Parameter Name         ; Value      ; Type                                                                                            ;
 +------------------------+------------+-------------------------------------------------------------------------------------------------+
@@ -1357,7 +1357,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.1 Build 222 10/21/2009 SJ Web Edition
-    Info: Processing started: Tue Oct 08 03:28:01 2019
+    Info: Processing started: Wed Oct 16 00:02:42 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
 Info: Found 1 design units, including 1 entities, in source file lab3.bdf
     Info: Found entity 1: Lab3
@@ -1451,16 +1451,21 @@ Info: Found 1 design units, including 1 entities, in source file memoryblock.bdf
     Info: Found entity 1: MemoryBlock
 Info: Found 1 design units, including 1 entities, in source file driver.bdf
     Info: Found entity 1: Driver
+Info: Found 1 design units, including 1 entities, in source file lab3(2).bdf
+    Info: Found entity 1: Lab3(2)
+Info: Found 2 design units, including 1 entities, in source file lpm_dff2.vhd
+    Info: Found design unit 1: lpm_dff2-SYN
+    Info: Found entity 1: lpm_dff2
 Info: Elaborating entity "Lab3" for the top level hierarchy
 Warning: Block or symbol "Driver" of instance "inst" overlaps another block or symbol
 Warning: Block or symbol "MemoryBlock" of instance "inst14" overlaps another block or symbol
 Info: Elaborating entity "Driver" for hierarchy "Driver:inst"
 Warning: Block or symbol "lpm_compare2" of instance "inst14" overlaps another block or symbol
 Info: Elaborating entity "RS-trigger" for hierarchy "Driver:inst|RS-trigger:inst20"
-Info: Elaborating entity "lpm_dff1" for hierarchy "Driver:inst|RS-trigger:inst20|lpm_dff1:inst4"
-Info: Elaborating entity "lpm_ff" for hierarchy "Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component"
-Info: Elaborated megafunction instantiation "Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component"
-Info: Instantiated megafunction "Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component" with the following parameter:
+Info: Elaborating entity "lpm_dff2" for hierarchy "Driver:inst|RS-trigger:inst20|lpm_dff2:inst7"
+Info: Elaborating entity "lpm_ff" for hierarchy "Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component"
+Info: Elaborated megafunction instantiation "Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component"
+Info: Instantiated megafunction "Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component" with the following parameter:
     Info: Parameter "lpm_fftype" = "TFF"
     Info: Parameter "lpm_type" = "LPM_FF"
     Info: Parameter "lpm_width" = "1"
@@ -1692,12 +1697,12 @@ Info: Found 1 design units, including 1 entities, in source file db/add_sub_uph.
     Info: Found entity 1: add_sub_uph
 Info: Elaborating entity "add_sub_uph" for hierarchy "MemoryBlock:inst14|Buffer:inst8|lpm_add_sub0:inst27|lpm_add_sub:lpm_add_sub_component|add_sub_uph:auto_generated"
 Warning: Clock multiplexers are found and protected
-    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst22|inst6~synth
-    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst20|inst6~synth
-    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst26|inst6~synth
-    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst23|inst6~synth
-    Warning: Found clock multiplexer MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|inst6~synth
-    Warning: Found clock multiplexer MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|inst6~synth
+    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst22|inst1~synth
+    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst20|inst1~synth
+    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst26|inst1~synth
+    Warning: Found clock multiplexer Driver:inst|RS-trigger:inst23|inst1~synth
+    Warning: Found clock multiplexer MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|inst1~synth
+    Warning: Found clock multiplexer MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst14|inst1~synth
 Warning: Always-enabled tri-state buffer(s) removed
     Warning: Converted the fanout from the always-enabled tri-state buffer "MemoryBlock:inst14|lpm_rom:inst|otri[7]" to the node "out_ROM[7]" into a wire
     Warning: Converted the fanout from the always-enabled tri-state buffer "MemoryBlock:inst14|lpm_rom:inst|otri[6]" to the node "out_ROM[6]" into a wire
@@ -1722,9 +1727,9 @@ Info: Implemented 226 device resources after synthesis - the final resource coun
     Info: Implemented 166 logic cells
     Info: Implemented 16 RAM segments
 Info: Quartus II Analysis & Synthesis was successful. 0 errors, 35 warnings
-    Info: Peak virtual memory: 287 megabytes
-    Info: Processing ended: Tue Oct 08 03:28:05 2019
-    Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:05
+    Info: Peak virtual memory: 268 megabytes
+    Info: Processing ended: Wed Oct 16 00:02:45 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:04
 
 

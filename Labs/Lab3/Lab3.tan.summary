@@ -196,7 +196,7 @@ Type           : Clock Hold: 'K[1]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[1]
 To Clock       : K[1]
@@ -206,7 +206,7 @@ Type           : Clock Hold: 'K[2]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[2]
 To Clock       : K[2]
@@ -216,7 +216,7 @@ Type           : Clock Hold: 'K[3]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[3]
 To Clock       : K[3]
@@ -226,7 +226,7 @@ Type           : Clock Hold: 'K[4]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[4]
 To Clock       : K[4]
@@ -236,7 +236,7 @@ Type           : Clock Hold: 'K[5]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[5]
 To Clock       : K[5]
@@ -246,7 +246,7 @@ Type           : Clock Hold: 'start'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : start
 To Clock       : start
@@ -256,7 +256,7 @@ Type           : Clock Hold: 'K[6]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[6]
 To Clock       : K[6]
@@ -266,7 +266,7 @@ Type           : Clock Hold: 'K[7]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[7]
 To Clock       : K[7]
@@ -276,7 +276,7 @@ Type           : Clock Hold: 'K[0]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : K[0]
 To Clock       : K[0]
@@ -286,7 +286,7 @@ Type           : Clock Hold: 'rom/ram'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst20|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]
 From Clock     : rom/ram
 To Clock       : rom/ram
@@ -296,7 +296,7 @@ Type           : Clock Hold: 'size_of_buffer[1]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : MemoryBlock:inst14|Buffer:inst8|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst10|lpm_ff:lpm_ff_component|dffs[4]
 From Clock     : size_of_buffer[1]
 To Clock       : size_of_buffer[1]
@@ -306,7 +306,7 @@ Type           : Clock Hold: 'size_of_buffer[0]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : size_of_buffer[0]
 To Clock       : size_of_buffer[0]
@@ -316,7 +316,7 @@ Type           : Clock Hold: 'size_of_buffer[2]'
 Slack          : Not operational: Clock Skew > Data Delay
 Required Time  : None
 Actual Time    : N/A
-From           : Driver:inst|RS-trigger:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+From           : Driver:inst|RS-trigger:inst22|lpm_dff2:inst7|lpm_ff:lpm_ff_component|dffs[0]
 To             : MemoryBlock:inst14|Buffer:inst8|lpm_dff0:inst5|lpm_ff:lpm_ff_component|dffs[7]
 From Clock     : size_of_buffer[2]
 To Clock       : size_of_buffer[2]

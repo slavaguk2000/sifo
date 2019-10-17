@@ -47,7 +47,6 @@ set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name BDF_FILE Lab3.bdf
 set_global_assignment -name HEX_FILE rom.hex
-set_global_assignment -name VECTOR_WAVEFORM_FILE Lab3.vwf
 set_global_assignment -name QIP_FILE lpm_bustri0.qip
 set_global_assignment -name QIP_FILE lpm_dff0.qip
 set_global_assignment -name QIP_FILE lpm_bustri1.qip
@@ -91,8 +90,11 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE MemoryBlock.vwf
 set_global_assignment -name BDF_FILE Driver.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Driver.vwf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Lab3.vwf
+set_global_assignment -name BDF_FILE "Lab3(2).bdf"
+set_global_assignment -name QIP_FILE lpm_dff2.qip
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name VECTOR_WAVEFORM_FILE Lab3.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

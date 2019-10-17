@@ -1,0 +1,165 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clk'
+Slack : -2.972
+TNS   : -33.142
+
+Type  : Slow Model Setup 'Devider:inst24|lpm_dff4:inst2|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -1.987
+TNS   : -6.118
+
+Type  : Slow Model Setup 'RS-trigger:inst21|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -1.205
+TNS   : -3.400
+
+Type  : Slow Model Setup 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Slow Model Setup 'lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_o4i:auto_generated|safe_q[0]'
+Slack : 0.265
+TNS   : 0.000
+
+Type  : Slow Model Setup 'Devider:inst24|lpm_counter2:inst1|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]'
+Slack : 1.229
+TNS   : 0.000
+
+Type  : Slow Model Hold 'lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_o4i:auto_generated|safe_q[0]'
+Slack : -3.112
+TNS   : -21.406
+
+Type  : Slow Model Hold 'Devider:inst24|lpm_dff4:inst2|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -2.438
+TNS   : -17.369
+
+Type  : Slow Model Hold 'clk'
+Slack : -2.324
+TNS   : -21.656
+
+Type  : Slow Model Hold 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -1.885
+TNS   : -5.478
+
+Type  : Slow Model Hold 'RS-trigger:inst21|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -1.044
+TNS   : -2.955
+
+Type  : Slow Model Hold 'Devider:inst24|lpm_counter2:inst1|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]'
+Slack : -0.968
+TNS   : -0.968
+
+Type  : Slow Model Recovery 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -3.921
+TNS   : -3.921
+
+Type  : Slow Model Removal 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : 1.564
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -17.242
+
+Type  : Slow Model Minimum Pulse Width 'Devider:inst24|lpm_dff4:inst2|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.112
+TNS   : -3.808
+
+Type  : Slow Model Minimum Pulse Width 'lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_o4i:auto_generated|safe_q[0]'
+Slack : -0.112
+TNS   : -1.792
+
+Type  : Slow Model Minimum Pulse Width 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.112
+TNS   : -0.896
+
+Type  : Slow Model Minimum Pulse Width 'RS-trigger:inst21|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.112
+TNS   : -0.672
+
+Type  : Slow Model Minimum Pulse Width 'Devider:inst24|lpm_counter2:inst1|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]'
+Slack : -0.112
+TNS   : -0.224
+
+Type  : Fast Model Setup 'clk'
+Slack : -1.338
+TNS   : -10.250
+
+Type  : Fast Model Setup 'Devider:inst24|lpm_dff4:inst2|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.975
+TNS   : -2.890
+
+Type  : Fast Model Setup 'RS-trigger:inst21|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.440
+TNS   : -1.210
+
+Type  : Fast Model Setup 'lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_o4i:auto_generated|safe_q[0]'
+Slack : 0.259
+TNS   : 0.000
+
+Type  : Fast Model Setup 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : 0.362
+TNS   : 0.000
+
+Type  : Fast Model Setup 'Devider:inst24|lpm_counter2:inst1|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]'
+Slack : 0.910
+TNS   : 0.000
+
+Type  : Fast Model Hold 'lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_o4i:auto_generated|safe_q[0]'
+Slack : -1.719
+TNS   : -12.106
+
+Type  : Fast Model Hold 'Devider:inst24|lpm_dff4:inst2|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -1.577
+TNS   : -11.422
+
+Type  : Fast Model Hold 'clk'
+Slack : -1.361
+TNS   : -13.681
+
+Type  : Fast Model Hold 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.954
+TNS   : -2.760
+
+Type  : Fast Model Hold 'RS-trigger:inst21|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.553
+TNS   : -1.557
+
+Type  : Fast Model Hold 'Devider:inst24|lpm_counter2:inst1|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]'
+Slack : -0.532
+TNS   : -0.532
+
+Type  : Fast Model Recovery 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -2.249
+TNS   : -2.249
+
+Type  : Fast Model Removal 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : 0.930
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk'
+Slack : -1.000
+TNS   : -17.530
+
+Type  : Fast Model Minimum Pulse Width 'Devider:inst24|lpm_dff4:inst2|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.130
+TNS   : -4.420
+
+Type  : Fast Model Minimum Pulse Width 'lpm_counter1:inst10|lpm_counter:lpm_counter_component|cntr_o4i:auto_generated|safe_q[0]'
+Slack : -0.130
+TNS   : -2.080
+
+Type  : Fast Model Minimum Pulse Width 'lpm_dff2:inst4|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.130
+TNS   : -1.040
+
+Type  : Fast Model Minimum Pulse Width 'RS-trigger:inst21|lpm_dff0:inst3|lpm_ff:lpm_ff_component|dffs[0]'
+Slack : -0.130
+TNS   : -0.780
+
+Type  : Fast Model Minimum Pulse Width 'Devider:inst24|lpm_counter2:inst1|lpm_counter:lpm_counter_component|cntr_i4i:auto_generated|safe_q[0]'
+Slack : -0.130
+TNS   : -0.260
+
+------------------------------------------------------------
