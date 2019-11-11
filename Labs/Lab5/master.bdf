@@ -1191,10 +1191,6 @@ applicable agreement for further details.
 	(pt 304 704)
 )
 (connector
-	(pt 448 720)
-	(pt 680 720)
-)
-(connector
 	(pt 240 296)
 	(pt 232 296)
 	(bus)
@@ -1549,6 +1545,11 @@ applicable agreement for further details.
 	(pt 472 200)
 	(bus)
 )
+(connector
+	(text "00" (rect 497 704 508 716)(font "Arial" ))
+	(pt 448 720)
+	(pt 680 720)
+)
 (junction (pt 232 488))
 (junction (pt 552 544))
 (junction (pt 672 544))
@@ -1566,3 +1567,4 @@ applicable agreement for further details.
 (junction (pt 688 416))
 (junction (pt 560 248))
 (junction (pt 432 200))
+(text ";/000000000000000" (rect 568 568 681 582)(font "Arial" (font_size 8)))

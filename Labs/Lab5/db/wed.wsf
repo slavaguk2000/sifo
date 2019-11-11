@@ -23,10 +23,10 @@ applicable agreement for further details.
 VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab5/arbitration.vwf")
 {
 	ZOOM{
-		ZBEGIN = 318764;
-		ZEND = 531272;
-		NUMERATOR = 1162;
-		DENOMINATOR = 212508;
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 1367;
+		DENOMINATOR = 1000000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{

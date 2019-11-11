@@ -1,0 +1,15 @@
+Analysis & Synthesis Status : Successful - Mon Oct 28 14:36:46 2019
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Web Edition
+Revision Name : arb
+Top-level Entity Name : arbbtr
+Family : Stratix II
+Logic utilization : N/A
+    Combinational ALUTs : 47
+    Dedicated logic registers : 28
+Total registers : 28
+Total pins : 17
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 9-bit elements : 0
+Total PLLs : 0
+Total DLLs : 0
