@@ -1,5 +1,5 @@
 Flow report for Lab6
-Mon Nov 11 05:57:36 2019
+Tue Nov 12 03:13:22 2019
 Quartus II Version 9.1 Build 222 10/21/2009 SJ Web Edition
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Mon Nov 11 05:57:36 2019   ;
+; Flow Status                   ; Successful - Tue Nov 12 03:13:22 2019   ;
 ; Quartus II Version            ; 9.1 Build 222 10/21/2009 SJ Web Edition ;
 ; Revision Name                 ; Lab6                                    ;
 ; Top-level Entity Name         ; Lab6                                    ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; No                                      ;
 ; Logic utilization             ; 2 %                                     ;
-;     Combinational ALUTs       ; 115 / 12,480 ( < 1 % )                  ;
+;     Combinational ALUTs       ; 113 / 12,480 ( < 1 % )                  ;
 ;     Dedicated logic registers ; 111 / 12,480 ( < 1 % )                  ;
 ; Total registers               ; 111                                     ;
-; Total pins                    ; 22 / 343 ( 6 % )                        ;
+; Total pins                    ; 27 / 343 ( 8 % )                        ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 640 / 419,328 ( < 1 % )                 ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/11/2019 05:26:11 ;
+; Start date & time ; 11/12/2019 03:13:08 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Lab6                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                         ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+-------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 5311869342080.157343917107948 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 5311869342080.157351758810056 ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                        ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                       ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_DECODE                    ; --            ; --          ; --             ;
@@ -100,6 +100,16 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_MUX                       ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                       ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                       ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                        ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                   ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                    ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ADD_SUB                   ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COUNTER                   ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                           ; --            ; --          ; --             ;
@@ -172,6 +182,16 @@ applicable agreement for further details.
 ; MISC_FILE                          ; lpm_mux3.cmp                  ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_mux4.bsf                  ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_mux4.cmp                  ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_tff1.bsf                  ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_tff1.cmp                  ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter2.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter2.cmp              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_decode4.bsf               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_decode4.cmp               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_add_sub2.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_add_sub2.cmp              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter3.bsf              ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_counter3.cmp              ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                      ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                        ; --            ; --          ; Top            ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                           ; --            ; --          ; eda_blast_fpga ;
@@ -183,12 +203,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:02     ; 1.0                     ; 268 MB              ; 00:00:04                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 292 MB              ; 00:00:04                           ;
-; Assembler               ; 00:00:01     ; 1.0                     ; 251 MB              ; 00:00:01                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 182 MB              ; 00:00:00                           ;
-; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 216 MB              ; 00:00:02                           ;
-; Total                   ; 00:00:07     ; --                      ; --                  ; 00:00:11                           ;
+; Analysis & Synthesis    ; 00:00:05     ; 1.0                     ; 267 MB              ; 00:00:05                           ;
+; Fitter                  ; 00:00:04     ; 1.0                     ; 292 MB              ; 00:00:05                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 251 MB              ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 182 MB              ; 00:00:01                           ;
+; Total                   ; 00:00:11     ; --                      ; --                  ; 00:00:13                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -201,7 +220,6 @@ applicable agreement for further details.
 ; Fitter                  ; DESKTOP-U7SE2UE  ; Windows Vista ; 6.2        ; x86_64         ;
 ; Assembler               ; DESKTOP-U7SE2UE  ; Windows Vista ; 6.2        ; x86_64         ;
 ; Classic Timing Analyzer ; DESKTOP-U7SE2UE  ; Windows Vista ; 6.2        ; x86_64         ;
-; Classic Timing Analyzer ; DESKTOP-U7SE2UE  ; Windows Vista ; 6.2        ; x86_64         ;
 +-------------------------+------------------+---------------+------------+----------------+
 
 
@@ -212,7 +230,6 @@ quartus_map --read_settings_files=on --write_settings_files=off Lab6 -c Lab6
 quartus_fit --read_settings_files=off --write_settings_files=off Lab6 -c Lab6
 quartus_asm --read_settings_files=off --write_settings_files=off Lab6 -c Lab6
 quartus_tan --read_settings_files=off --write_settings_files=off Lab6 -c Lab6 --timing_analysis_only
-quartus_tan --read_settings_files=on --write_settings_files=off Lab6 -c Lab6
 
 
 

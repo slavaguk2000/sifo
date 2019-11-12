@@ -20,13 +20,13 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 
-VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
+VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/String.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 1000000;
-		NUMERATOR = 20;
-		DENOMINATOR = 1000;
+		ZEND = 500000;
+		NUMERATOR = 1367;
+		DENOMINATOR = 500000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -38,7 +38,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "Cache|address";
+		SIGNAL = "data";
 		INDEX = 0;
 		FORMAT = T;
 		SCALE = 1;
@@ -46,7 +46,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[6]";
+		SIGNAL = "data[4]";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -54,7 +54,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[5]";
+		SIGNAL = "data[3]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -62,7 +62,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[4]";
+		SIGNAL = "data[2]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -70,7 +70,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[3]";
+		SIGNAL = "data[1]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -78,7 +78,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[2]";
+		SIGNAL = "data[0]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -86,15 +86,15 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[1]";
+		SIGNAL = "num_word_read";
 		INDEX = 6;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|address[0]";
+		SIGNAL = "num_word_read[1]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -102,7 +102,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|clk";
+		SIGNAL = "num_word_read[0]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -110,23 +110,23 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|hit";
+		SIGNAL = "num_word_write";
 		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "Cache|out_data";
-		INDEX = 10;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|out_data[4]";
+		SIGNAL = "num_word_write[3]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "num_word_write[2]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -134,7 +134,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|out_data[3]";
+		SIGNAL = "num_word_write[1]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -142,7 +142,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|out_data[2]";
+		SIGNAL = "num_word_write[0]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -150,15 +150,15 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|out_data[1]";
+		SIGNAL = "tag";
 		INDEX = 14;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|out_data[0]";
+		SIGNAL = "tag[4]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -166,7 +166,7 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|read";
+		SIGNAL = "tag[3]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -174,8 +174,88 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "Cache|write";
+		SIGNAL = "tag[2]";
 		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag[1]";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "tag[0]";
+		INDEX = 19;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "write";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData";
+		INDEX = 21;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[4]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[3]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[2]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[1]";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[0]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "hit";
+		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -186,10 +266,10 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
 VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Lab6.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 166787;
-		NUMERATOR = 1162;
-		DENOMINATOR = 166787;
+		ZBEGIN = 500000;
+		ZEND = 1000000;
+		NUMERATOR = 1368;
+		DENOMINATOR = 500000;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -395,6 +475,396 @@ VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Lab6.vwf")
 	LINE{
 		SIGNAL = "out_data[0]";
 		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dataToCashe";
+		INDEX = 25;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dataToCashe[4]";
+		INDEX = 26;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dataToCashe[3]";
+		INDEX = 27;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dataToCashe[2]";
+		INDEX = 28;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dataToCashe[1]";
+		INDEX = 29;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "dataToCashe[0]";
+		INDEX = 30;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr";
+		INDEX = 31;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[6]";
+		INDEX = 32;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[5]";
+		INDEX = 33;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[4]";
+		INDEX = 34;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[3]";
+		INDEX = 35;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[2]";
+		INDEX = 36;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[1]";
+		INDEX = 37;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "req_addr[0]";
+		INDEX = 38;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/blockerFirstImpuls.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 360380;
+		NUMERATOR = 986;
+		DENOMINATOR = 360380;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "clear";
+		INDEX = 0;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "input";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "output";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+}
+
+VECTOR("D:/UNIVER/5 sem/SiFO/sifo/Labs/Lab6/Cache.vwf")
+{
+	ZOOM{
+		ZBEGIN = 0;
+		ZEND = 1000000;
+		NUMERATOR = 2115;
+		DENOMINATOR = 1000000;
+		TOP_INDEX = 0;
+	}
+	CLOCK{
+		PERIOD = 10000;
+		OFFSET = 0;
+		DUTY_CYCLE = 50;
+	}
+	RANDOM_VALUE{
+		INTERVAL_TYPE = HALF_GRID;
+	}
+	LINE{
+		SIGNAL = "address_ram";
+		INDEX = 0;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[6]";
+		INDEX = 1;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[5]";
+		INDEX = 2;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[4]";
+		INDEX = 3;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[3]";
+		INDEX = 4;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[2]";
+		INDEX = 5;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[1]";
+		INDEX = 6;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address_ram[0]";
+		INDEX = 7;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address";
+		INDEX = 8;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[6]";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[5]";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[4]";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[3]";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[2]";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[1]";
+		INDEX = 14;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "address[0]";
+		INDEX = 15;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "clk";
+		INDEX = 16;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "read";
+		INDEX = 17;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "write";
+		INDEX = 18;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData";
+		INDEX = 19;
+		FORMAT = T;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[4]";
+		INDEX = 20;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[3]";
+		INDEX = 21;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[2]";
+		INDEX = 22;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[1]";
+		INDEX = 23;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "outputData[0]";
+		INDEX = 24;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "validData";
+		INDEX = 25;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "hit/miss";
+		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

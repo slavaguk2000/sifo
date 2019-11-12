@@ -72,7 +72,7 @@ ARCHITECTURE SYN OF lpm_add_sub1 IS
 	END COMPONENT;
 
 BEGIN
-	sub_wire1_bv(2 DOWNTO 0) <= "010";
+	sub_wire1_bv(2 DOWNTO 0) <= "011";
 	sub_wire1    <= To_stdlogicvector(sub_wire1_bv);
 	result    <= sub_wire0(2 DOWNTO 0);
 
@@ -100,7 +100,7 @@ END SYN;
 -- Retrieval info: PRIVATE: CarryIn NUMERIC "0"
 -- Retrieval info: PRIVATE: CarryOut NUMERIC "0"
 -- Retrieval info: PRIVATE: ConstantA NUMERIC "0"
--- Retrieval info: PRIVATE: ConstantB NUMERIC "2"
+-- Retrieval info: PRIVATE: ConstantB NUMERIC "3"
 -- Retrieval info: PRIVATE: Function NUMERIC "1"
 -- Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
 -- Retrieval info: PRIVATE: LPM_PIPELINE NUMERIC "0"
@@ -125,7 +125,7 @@ END SYN;
 -- Retrieval info: USED_PORT: result 0 0 3 0 OUTPUT NODEFVAL result[2..0]
 -- Retrieval info: CONNECT: result 0 0 3 0 @result 0 0 3 0
 -- Retrieval info: CONNECT: @dataa 0 0 3 0 dataa 0 0 3 0
--- Retrieval info: CONNECT: @datab 0 0 3 0 2 0 0 0 0
+-- Retrieval info: CONNECT: @datab 0 0 3 0 3 0 0 0 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_add_sub1.vhd TRUE
 -- Retrieval info: GEN_FILE: TYPE_NORMAL lpm_add_sub1.inc FALSE
