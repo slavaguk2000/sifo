@@ -44,8 +44,11 @@ set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:15:36  OCTOBER 31, 20
 set_global_assignment -name LAST_QUARTUS_VERSION 9.1
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Lab6.vwf
 set_global_assignment -name BDF_FILE "RS-trigger.bdf"
 set_global_assignment -name BDF_FILE Lab6.bdf
+set_global_assignment -name VECTOR_WAVEFORM_FILE "Lab6 Ч копи€.vwf"
 set_global_assignment -name BDF_FILE Cache.bdf
 set_global_assignment -name BDF_FILE String.bdf
 set_global_assignment -name QIP_FILE lpm_dff0.qip
@@ -66,7 +69,6 @@ set_global_assignment -name QIP_FILE lpm_add_sub1.qip
 set_global_assignment -name QIP_FILE lpm_compare1.qip
 set_global_assignment -name QIP_FILE lpm_ram_dq0.qip
 set_global_assignment -name VECTOR_WAVEFORM_FILE Lab6.vwf
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name VECTOR_WAVEFORM_FILE Cache.vwf
 set_global_assignment -name HEX_FILE ram.hex
 set_global_assignment -name QIP_FILE lpm_bustri2.qip
@@ -84,9 +86,9 @@ set_global_assignment -name QIP_FILE lpm_counter2.qip
 set_global_assignment -name QIP_FILE lpm_decode4.qip
 set_global_assignment -name QIP_FILE lpm_add_sub2.qip
 set_global_assignment -name QIP_FILE lpm_counter3.qip
+set_global_assignment -name BDF_FILE FRONT_TO_SIGNAL.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Lab6.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
