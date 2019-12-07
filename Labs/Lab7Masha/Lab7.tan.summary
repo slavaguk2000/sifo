@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 3.205 ns
+From           : transition
+To             : PHT:inst1|A4:inst28|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : --
+To Clock       : write
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.905 ns
+From           : PHT:inst1|A4:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+To             : prediction
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.547 ns
+From           : read
+To             : prediction
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.491 ns
+From           : transition
+To             : PHT:inst1|A4:inst32|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 444.05 MHz ( period = 2.252 ns )
+From           : PHT:inst1|A4:inst19|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+To             : PHT:inst1|A4:inst19|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'write'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : PHT:inst1|A4:inst21|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+To             : PHT:inst1|A4:inst21|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : write
+To Clock       : write
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : PHT:inst1|A4:inst32|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+To             : PHT:inst1|A4:inst32|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 64
+
+Type           : Clock Hold: 'write'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : PHT:inst1|A4:inst32|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[0]
+To             : PHT:inst1|A4:inst32|lpm_dff1:inst4|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : write
+To Clock       : write
+Failed Paths   : 1
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 65
+
+--------------------------------------------------------------------------------------
+

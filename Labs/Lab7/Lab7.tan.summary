@@ -1,0 +1,106 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.153 ns
+From           : read
+To             : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[0]
+From Clock     : --
+To Clock       : read
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 14.251 ns
+From           : PHT:inst|A5:inst18|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]
+To             : prediction
+From Clock     : clk
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.820 ns
+From           : read
+To             : prediction
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 2.532 ns
+From           : transition
+To             : PHT:inst|A5:inst14|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]
+From Clock     : --
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'read'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 152.18 MHz ( period = 6.571 ns )
+From           : PHT:inst|A5:inst18|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]
+To             : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[0]
+From Clock     : read
+To Clock       : read
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 152.18 MHz ( period = 6.571 ns )
+From           : PHT:inst|A5:inst18|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]
+To             : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[0]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 0
+
+Type           : Clock Setup: 'write'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 500.00 MHz ( period = 2.000 ns )
+From           : PHT:inst|A5:inst5|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[1]
+To             : PHT:inst|A5:inst5|lpm_dff0:inst|lpm_ff:lpm_ff_component|dffs[0]
+From Clock     : write
+To Clock       : write
+Failed Paths   : 0
+
+Type           : Clock Hold: 'clk'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[2]
+To             : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[3]
+From Clock     : clk
+To Clock       : clk
+Failed Paths   : 121
+
+Type           : Clock Hold: 'read'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[2]
+To             : lpm_shiftreg0:inst2|lpm_shiftreg:lpm_shiftreg_component|dffs[3]
+From Clock     : read
+To Clock       : read
+Failed Paths   : 55
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 176
+
+--------------------------------------------------------------------------------------
+

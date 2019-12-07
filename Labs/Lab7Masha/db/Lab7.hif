@@ -1,0 +1,2040 @@
+Quartus II
+Version 9.1 Build 222 10/21/2009 SJ Web Edition
+7
+3500
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+A4
+# storage
+db|Lab7.(0).cnf
+db|Lab7.(0).cnf
+# case_insensitive
+# source_file
+a4.bdf
+5c57eed2a8ca8cb45c8e9ea5b50727f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PHT:inst1|A4:inst1
+PHT:inst1|A4:inst18
+PHT:inst1|A4:inst19
+PHT:inst1|A4:inst20
+PHT:inst1|A4:inst21
+PHT:inst1|A4:inst22
+PHT:inst1|A4:inst23
+PHT:inst1|A4:inst24
+PHT:inst1|A4:inst25
+PHT:inst1|A4:inst26
+PHT:inst1|A4:inst27
+PHT:inst1|A4:inst28
+PHT:inst1|A4:inst29
+PHT:inst1|A4:inst30
+PHT:inst1|A4:inst31
+PHT:inst1|A4:inst32
+PHT:inst1|A4:inst16
+PHT:inst1|A4:inst15
+PHT:inst1|A4:inst14
+PHT:inst1|A4:inst13
+PHT:inst1|A4:inst12
+PHT:inst1|A4:inst11
+PHT:inst1|A4:inst10
+PHT:inst1|A4:inst9
+PHT:inst1|A4:inst8
+PHT:inst1|A4:inst7
+PHT:inst1|A4:inst6
+PHT:inst1|A4:inst5
+PHT:inst1|A4:inst4
+PHT:inst1|A4:inst2
+PHT:inst1|A4:inst3
+PHT:inst1|A4:inst17
+}
+# macro_sequence
+
+# end
+# entity
+lpm_bustri0
+# storage
+db|Lab7.(1).cnf
+db|Lab7.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_bustri0.vhd
+2e2b35244c95ca712e74efdd7d47a2
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+lpm_bustri0:inst7
+PHT:inst1|A4:inst1|lpm_bustri0:inst3
+PHT:inst1|A4:inst18|lpm_bustri0:inst3
+PHT:inst1|A4:inst19|lpm_bustri0:inst3
+PHT:inst1|A4:inst20|lpm_bustri0:inst3
+PHT:inst1|A4:inst21|lpm_bustri0:inst3
+PHT:inst1|A4:inst22|lpm_bustri0:inst3
+PHT:inst1|A4:inst23|lpm_bustri0:inst3
+PHT:inst1|A4:inst24|lpm_bustri0:inst3
+PHT:inst1|A4:inst25|lpm_bustri0:inst3
+PHT:inst1|A4:inst26|lpm_bustri0:inst3
+PHT:inst1|A4:inst27|lpm_bustri0:inst3
+PHT:inst1|A4:inst28|lpm_bustri0:inst3
+PHT:inst1|A4:inst29|lpm_bustri0:inst3
+PHT:inst1|A4:inst30|lpm_bustri0:inst3
+PHT:inst1|A4:inst31|lpm_bustri0:inst3
+PHT:inst1|A4:inst32|lpm_bustri0:inst3
+PHT:inst1|A4:inst16|lpm_bustri0:inst3
+PHT:inst1|A4:inst15|lpm_bustri0:inst3
+PHT:inst1|A4:inst14|lpm_bustri0:inst3
+PHT:inst1|A4:inst13|lpm_bustri0:inst3
+PHT:inst1|A4:inst12|lpm_bustri0:inst3
+PHT:inst1|A4:inst11|lpm_bustri0:inst3
+PHT:inst1|A4:inst10|lpm_bustri0:inst3
+PHT:inst1|A4:inst9|lpm_bustri0:inst3
+PHT:inst1|A4:inst8|lpm_bustri0:inst3
+PHT:inst1|A4:inst7|lpm_bustri0:inst3
+PHT:inst1|A4:inst6|lpm_bustri0:inst3
+PHT:inst1|A4:inst5|lpm_bustri0:inst3
+PHT:inst1|A4:inst4|lpm_bustri0:inst3
+PHT:inst1|A4:inst2|lpm_bustri0:inst3
+PHT:inst1|A4:inst3|lpm_bustri0:inst3
+PHT:inst1|A4:inst17|lpm_bustri0:inst3
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_bustri
+# storage
+db|Lab7.(2).cnf
+db|Lab7.(2).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_bustri.tdf
+9e81b53c45b3aeaef540b95aa6d11233
+7
+# user_parameter {
+LPM_WIDTH
+1
+PARAMETER_SIGNED_DEC
+USR
+}
+# used_port {
+tridata0
+-1
+3
+enabledt
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+lpm_bustri0:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst1|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst18|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst19|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst20|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst21|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst22|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst23|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst24|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst25|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst26|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst27|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst28|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst29|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst30|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst31|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst32|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst16|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst15|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst14|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst13|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst12|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst11|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst10|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst9|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst8|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst7|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst6|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst5|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst4|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst2|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst3|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst17|lpm_bustri0:inst3|lpm_bustri:lpm_bustri_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_dff1
+# storage
+db|Lab7.(3).cnf
+db|Lab7.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|univer|5 sem|sifo|sifo|labs|lab7|lpm_dff1.vhd
+44cc43c2cd55aaa31dc668e4be93fd48
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_dff1:inst4
+PHT:inst1|A4:inst18|lpm_dff1:inst4
+PHT:inst1|A4:inst19|lpm_dff1:inst4
+PHT:inst1|A4:inst20|lpm_dff1:inst4
+PHT:inst1|A4:inst21|lpm_dff1:inst4
+PHT:inst1|A4:inst22|lpm_dff1:inst4
+PHT:inst1|A4:inst23|lpm_dff1:inst4
+PHT:inst1|A4:inst24|lpm_dff1:inst4
+PHT:inst1|A4:inst25|lpm_dff1:inst4
+PHT:inst1|A4:inst26|lpm_dff1:inst4
+PHT:inst1|A4:inst27|lpm_dff1:inst4
+PHT:inst1|A4:inst28|lpm_dff1:inst4
+PHT:inst1|A4:inst29|lpm_dff1:inst4
+PHT:inst1|A4:inst30|lpm_dff1:inst4
+PHT:inst1|A4:inst31|lpm_dff1:inst4
+PHT:inst1|A4:inst32|lpm_dff1:inst4
+PHT:inst1|A4:inst16|lpm_dff1:inst4
+PHT:inst1|A4:inst15|lpm_dff1:inst4
+PHT:inst1|A4:inst14|lpm_dff1:inst4
+PHT:inst1|A4:inst13|lpm_dff1:inst4
+PHT:inst1|A4:inst12|lpm_dff1:inst4
+PHT:inst1|A4:inst11|lpm_dff1:inst4
+PHT:inst1|A4:inst10|lpm_dff1:inst4
+PHT:inst1|A4:inst9|lpm_dff1:inst4
+PHT:inst1|A4:inst8|lpm_dff1:inst4
+PHT:inst1|A4:inst7|lpm_dff1:inst4
+PHT:inst1|A4:inst6|lpm_dff1:inst4
+PHT:inst1|A4:inst5|lpm_dff1:inst4
+PHT:inst1|A4:inst4|lpm_dff1:inst4
+PHT:inst1|A4:inst2|lpm_dff1:inst4
+PHT:inst1|A4:inst3|lpm_dff1:inst4
+PHT:inst1|A4:inst17|lpm_dff1:inst4
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_ff
+# storage
+db|Lab7.(4).cnf
+db|Lab7.(4).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_ff.tdf
+46b042d3fd5eb2f17a9dfd3891afd1a
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_FFTYPE
+DFF
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+NOTHING
+PARAMETER_UNKNOWN
+DEF
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+q1
+-1
+3
+q0
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst18|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst19|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst20|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst21|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst22|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst23|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst24|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst25|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst26|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst27|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst28|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst29|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst30|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst31|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst32|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst16|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst15|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst14|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst13|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst12|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst11|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst10|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst9|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst8|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst7|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst6|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst5|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst4|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst2|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst3|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+PHT:inst1|A4:inst17|lpm_dff1:inst4|lpm_ff:lpm_ff_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_bustri2
+# storage
+db|Lab7.(5).cnf
+db|Lab7.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|univer|5 sem|sifo|sifo|labs|lab7|lpm_bustri2.vhd
+4599921d53b2f25ea4ab83686b0ebdf
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_bustri2:inst5
+PHT:inst1|A4:inst1|lpm_bustri2:inst7
+PHT:inst1|A4:inst1|lpm_bustri2:inst9
+PHT:inst1|A4:inst1|lpm_bustri2:inst11
+PHT:inst1|A4:inst18|lpm_bustri2:inst5
+PHT:inst1|A4:inst18|lpm_bustri2:inst7
+PHT:inst1|A4:inst18|lpm_bustri2:inst9
+PHT:inst1|A4:inst18|lpm_bustri2:inst11
+PHT:inst1|A4:inst19|lpm_bustri2:inst5
+PHT:inst1|A4:inst19|lpm_bustri2:inst7
+PHT:inst1|A4:inst19|lpm_bustri2:inst9
+PHT:inst1|A4:inst19|lpm_bustri2:inst11
+PHT:inst1|A4:inst20|lpm_bustri2:inst5
+PHT:inst1|A4:inst20|lpm_bustri2:inst7
+PHT:inst1|A4:inst20|lpm_bustri2:inst9
+PHT:inst1|A4:inst20|lpm_bustri2:inst11
+PHT:inst1|A4:inst21|lpm_bustri2:inst5
+PHT:inst1|A4:inst21|lpm_bustri2:inst7
+PHT:inst1|A4:inst21|lpm_bustri2:inst9
+PHT:inst1|A4:inst21|lpm_bustri2:inst11
+PHT:inst1|A4:inst22|lpm_bustri2:inst5
+PHT:inst1|A4:inst22|lpm_bustri2:inst7
+PHT:inst1|A4:inst22|lpm_bustri2:inst9
+PHT:inst1|A4:inst22|lpm_bustri2:inst11
+PHT:inst1|A4:inst23|lpm_bustri2:inst5
+PHT:inst1|A4:inst23|lpm_bustri2:inst7
+PHT:inst1|A4:inst23|lpm_bustri2:inst9
+PHT:inst1|A4:inst23|lpm_bustri2:inst11
+PHT:inst1|A4:inst24|lpm_bustri2:inst5
+PHT:inst1|A4:inst24|lpm_bustri2:inst7
+PHT:inst1|A4:inst24|lpm_bustri2:inst9
+PHT:inst1|A4:inst24|lpm_bustri2:inst11
+PHT:inst1|A4:inst25|lpm_bustri2:inst5
+PHT:inst1|A4:inst25|lpm_bustri2:inst7
+PHT:inst1|A4:inst25|lpm_bustri2:inst9
+PHT:inst1|A4:inst25|lpm_bustri2:inst11
+PHT:inst1|A4:inst26|lpm_bustri2:inst5
+PHT:inst1|A4:inst26|lpm_bustri2:inst7
+PHT:inst1|A4:inst26|lpm_bustri2:inst9
+PHT:inst1|A4:inst26|lpm_bustri2:inst11
+PHT:inst1|A4:inst27|lpm_bustri2:inst5
+PHT:inst1|A4:inst27|lpm_bustri2:inst7
+PHT:inst1|A4:inst27|lpm_bustri2:inst9
+PHT:inst1|A4:inst27|lpm_bustri2:inst11
+PHT:inst1|A4:inst28|lpm_bustri2:inst5
+PHT:inst1|A4:inst28|lpm_bustri2:inst7
+PHT:inst1|A4:inst28|lpm_bustri2:inst9
+PHT:inst1|A4:inst28|lpm_bustri2:inst11
+PHT:inst1|A4:inst29|lpm_bustri2:inst5
+PHT:inst1|A4:inst29|lpm_bustri2:inst7
+PHT:inst1|A4:inst29|lpm_bustri2:inst9
+PHT:inst1|A4:inst29|lpm_bustri2:inst11
+PHT:inst1|A4:inst30|lpm_bustri2:inst5
+PHT:inst1|A4:inst30|lpm_bustri2:inst7
+PHT:inst1|A4:inst30|lpm_bustri2:inst9
+PHT:inst1|A4:inst30|lpm_bustri2:inst11
+PHT:inst1|A4:inst31|lpm_bustri2:inst5
+PHT:inst1|A4:inst31|lpm_bustri2:inst7
+PHT:inst1|A4:inst31|lpm_bustri2:inst9
+PHT:inst1|A4:inst31|lpm_bustri2:inst11
+PHT:inst1|A4:inst32|lpm_bustri2:inst5
+PHT:inst1|A4:inst32|lpm_bustri2:inst7
+PHT:inst1|A4:inst32|lpm_bustri2:inst9
+PHT:inst1|A4:inst32|lpm_bustri2:inst11
+PHT:inst1|A4:inst16|lpm_bustri2:inst5
+PHT:inst1|A4:inst16|lpm_bustri2:inst7
+PHT:inst1|A4:inst16|lpm_bustri2:inst9
+PHT:inst1|A4:inst16|lpm_bustri2:inst11
+PHT:inst1|A4:inst15|lpm_bustri2:inst5
+PHT:inst1|A4:inst15|lpm_bustri2:inst7
+PHT:inst1|A4:inst15|lpm_bustri2:inst9
+PHT:inst1|A4:inst15|lpm_bustri2:inst11
+PHT:inst1|A4:inst14|lpm_bustri2:inst5
+PHT:inst1|A4:inst14|lpm_bustri2:inst7
+PHT:inst1|A4:inst14|lpm_bustri2:inst9
+PHT:inst1|A4:inst14|lpm_bustri2:inst11
+PHT:inst1|A4:inst13|lpm_bustri2:inst5
+PHT:inst1|A4:inst13|lpm_bustri2:inst7
+PHT:inst1|A4:inst13|lpm_bustri2:inst9
+PHT:inst1|A4:inst13|lpm_bustri2:inst11
+PHT:inst1|A4:inst12|lpm_bustri2:inst5
+PHT:inst1|A4:inst12|lpm_bustri2:inst7
+PHT:inst1|A4:inst12|lpm_bustri2:inst9
+PHT:inst1|A4:inst12|lpm_bustri2:inst11
+PHT:inst1|A4:inst11|lpm_bustri2:inst5
+PHT:inst1|A4:inst11|lpm_bustri2:inst7
+PHT:inst1|A4:inst11|lpm_bustri2:inst9
+PHT:inst1|A4:inst11|lpm_bustri2:inst11
+PHT:inst1|A4:inst10|lpm_bustri2:inst5
+PHT:inst1|A4:inst10|lpm_bustri2:inst7
+PHT:inst1|A4:inst10|lpm_bustri2:inst9
+PHT:inst1|A4:inst10|lpm_bustri2:inst11
+PHT:inst1|A4:inst9|lpm_bustri2:inst5
+PHT:inst1|A4:inst9|lpm_bustri2:inst7
+PHT:inst1|A4:inst9|lpm_bustri2:inst9
+PHT:inst1|A4:inst9|lpm_bustri2:inst11
+PHT:inst1|A4:inst8|lpm_bustri2:inst5
+PHT:inst1|A4:inst8|lpm_bustri2:inst7
+PHT:inst1|A4:inst8|lpm_bustri2:inst9
+PHT:inst1|A4:inst8|lpm_bustri2:inst11
+PHT:inst1|A4:inst7|lpm_bustri2:inst5
+PHT:inst1|A4:inst7|lpm_bustri2:inst7
+PHT:inst1|A4:inst7|lpm_bustri2:inst9
+PHT:inst1|A4:inst7|lpm_bustri2:inst11
+PHT:inst1|A4:inst6|lpm_bustri2:inst5
+PHT:inst1|A4:inst6|lpm_bustri2:inst7
+PHT:inst1|A4:inst6|lpm_bustri2:inst9
+PHT:inst1|A4:inst6|lpm_bustri2:inst11
+PHT:inst1|A4:inst5|lpm_bustri2:inst5
+PHT:inst1|A4:inst5|lpm_bustri2:inst7
+PHT:inst1|A4:inst5|lpm_bustri2:inst9
+PHT:inst1|A4:inst5|lpm_bustri2:inst11
+PHT:inst1|A4:inst4|lpm_bustri2:inst5
+PHT:inst1|A4:inst4|lpm_bustri2:inst7
+PHT:inst1|A4:inst4|lpm_bustri2:inst9
+PHT:inst1|A4:inst4|lpm_bustri2:inst11
+PHT:inst1|A4:inst2|lpm_bustri2:inst5
+PHT:inst1|A4:inst2|lpm_bustri2:inst7
+PHT:inst1|A4:inst2|lpm_bustri2:inst9
+PHT:inst1|A4:inst2|lpm_bustri2:inst11
+PHT:inst1|A4:inst3|lpm_bustri2:inst5
+PHT:inst1|A4:inst3|lpm_bustri2:inst7
+PHT:inst1|A4:inst3|lpm_bustri2:inst9
+PHT:inst1|A4:inst3|lpm_bustri2:inst11
+PHT:inst1|A4:inst17|lpm_bustri2:inst5
+PHT:inst1|A4:inst17|lpm_bustri2:inst7
+PHT:inst1|A4:inst17|lpm_bustri2:inst9
+PHT:inst1|A4:inst17|lpm_bustri2:inst11
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_bustri
+# storage
+db|Lab7.(6).cnf
+db|Lab7.(6).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_bustri.tdf
+9e81b53c45b3aeaef540b95aa6d11233
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+}
+# used_port {
+tridata1
+-1
+3
+tridata0
+-1
+3
+enabledt
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst1|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst1|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst1|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst18|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst18|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst18|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst18|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst19|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst19|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst19|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst19|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst20|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst20|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst20|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst20|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst21|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst21|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst21|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst21|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst22|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst22|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst22|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst22|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst23|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst23|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst23|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst23|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst24|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst24|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst24|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst24|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst25|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst25|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst25|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst25|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst26|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst26|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst26|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst26|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst27|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst27|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst27|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst27|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst28|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst28|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst28|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst28|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst29|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst29|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst29|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst29|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst30|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst30|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst30|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst30|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst31|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst31|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst31|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst31|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst32|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst32|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst32|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst32|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst16|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst16|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst16|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst16|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst15|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst15|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst15|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst15|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst14|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst14|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst14|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst14|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst13|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst13|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst13|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst13|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst12|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst12|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst12|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst12|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst11|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst11|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst11|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst11|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst10|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst10|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst10|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst10|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst9|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst9|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst9|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst9|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst8|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst8|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst8|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst8|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst7|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst7|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst7|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst7|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst6|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst6|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst6|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst6|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst5|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst5|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst5|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst5|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst4|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst4|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst4|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst4|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst2|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst2|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst2|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst2|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst3|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst3|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst3|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst3|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst17|lpm_bustri2:inst5|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst17|lpm_bustri2:inst7|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst17|lpm_bustri2:inst9|lpm_bustri:lpm_bustri_component
+PHT:inst1|A4:inst17|lpm_bustri2:inst11|lpm_bustri:lpm_bustri_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode1
+# storage
+db|Lab7.(7).cnf
+db|Lab7.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|univer|5 sem|sifo|sifo|labs|lab7|lpm_decode1.vhd
+5e523bd5bfd4be59d012bf6de3667dc6
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_decode1:inst22
+PHT:inst1|A4:inst18|lpm_decode1:inst22
+PHT:inst1|A4:inst19|lpm_decode1:inst22
+PHT:inst1|A4:inst20|lpm_decode1:inst22
+PHT:inst1|A4:inst21|lpm_decode1:inst22
+PHT:inst1|A4:inst22|lpm_decode1:inst22
+PHT:inst1|A4:inst23|lpm_decode1:inst22
+PHT:inst1|A4:inst24|lpm_decode1:inst22
+PHT:inst1|A4:inst25|lpm_decode1:inst22
+PHT:inst1|A4:inst26|lpm_decode1:inst22
+PHT:inst1|A4:inst27|lpm_decode1:inst22
+PHT:inst1|A4:inst28|lpm_decode1:inst22
+PHT:inst1|A4:inst29|lpm_decode1:inst22
+PHT:inst1|A4:inst30|lpm_decode1:inst22
+PHT:inst1|A4:inst31|lpm_decode1:inst22
+PHT:inst1|A4:inst32|lpm_decode1:inst22
+PHT:inst1|A4:inst16|lpm_decode1:inst22
+PHT:inst1|A4:inst15|lpm_decode1:inst22
+PHT:inst1|A4:inst14|lpm_decode1:inst22
+PHT:inst1|A4:inst13|lpm_decode1:inst22
+PHT:inst1|A4:inst12|lpm_decode1:inst22
+PHT:inst1|A4:inst11|lpm_decode1:inst22
+PHT:inst1|A4:inst10|lpm_decode1:inst22
+PHT:inst1|A4:inst9|lpm_decode1:inst22
+PHT:inst1|A4:inst8|lpm_decode1:inst22
+PHT:inst1|A4:inst7|lpm_decode1:inst22
+PHT:inst1|A4:inst6|lpm_decode1:inst22
+PHT:inst1|A4:inst5|lpm_decode1:inst22
+PHT:inst1|A4:inst4|lpm_decode1:inst22
+PHT:inst1|A4:inst2|lpm_decode1:inst22
+PHT:inst1|A4:inst3|lpm_decode1:inst22
+PHT:inst1|A4:inst17|lpm_decode1:inst22
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_decode
+# storage
+db|Lab7.(8).cnf
+db|Lab7.(8).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_decode.tdf
+bfce37ee9af3768dda7316c867798b
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_DECODES
+4
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+decode_p7f
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst18|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst19|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst20|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst21|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst22|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst23|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst24|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst25|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst26|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst27|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst28|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst29|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst30|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst31|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst32|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst16|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst15|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst14|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst13|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst12|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst11|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst10|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst9|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst8|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst7|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst6|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst5|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst4|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst2|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst3|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+PHT:inst1|A4:inst17|lpm_decode1:inst22|lpm_decode:lpm_decode_component
+}
+# macro_sequence
+
+# end
+# entity
+decode_p7f
+# storage
+db|Lab7.(9).cnf
+db|Lab7.(9).cnf
+# case_insensitive
+# source_file
+db|decode_p7f.tdf
+1f25a54cf848a519645cb9d38745bac
+7
+# used_port {
+eq3
+-1
+3
+eq2
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst18|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst19|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst20|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst21|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst22|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst23|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst24|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst25|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst26|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst27|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst28|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst29|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst30|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst31|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst32|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst16|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst15|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst14|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst13|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst12|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst11|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst10|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst9|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst8|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst7|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst6|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst5|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst4|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst2|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst3|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+PHT:inst1|A4:inst17|lpm_decode1:inst22|lpm_decode:lpm_decode_component|decode_p7f:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant4
+# storage
+db|Lab7.(10).cnf
+db|Lab7.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|univer|5 sem|sifo|sifo|labs|lab7|lpm_constant4.vhd
+3ba27ba1658709f5d451bff96b6215
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant4:inst6
+PHT:inst1|A4:inst18|lpm_constant4:inst6
+PHT:inst1|A4:inst19|lpm_constant4:inst6
+PHT:inst1|A4:inst20|lpm_constant4:inst6
+PHT:inst1|A4:inst21|lpm_constant4:inst6
+PHT:inst1|A4:inst22|lpm_constant4:inst6
+PHT:inst1|A4:inst23|lpm_constant4:inst6
+PHT:inst1|A4:inst24|lpm_constant4:inst6
+PHT:inst1|A4:inst25|lpm_constant4:inst6
+PHT:inst1|A4:inst26|lpm_constant4:inst6
+PHT:inst1|A4:inst27|lpm_constant4:inst6
+PHT:inst1|A4:inst28|lpm_constant4:inst6
+PHT:inst1|A4:inst29|lpm_constant4:inst6
+PHT:inst1|A4:inst30|lpm_constant4:inst6
+PHT:inst1|A4:inst31|lpm_constant4:inst6
+PHT:inst1|A4:inst32|lpm_constant4:inst6
+PHT:inst1|A4:inst16|lpm_constant4:inst6
+PHT:inst1|A4:inst15|lpm_constant4:inst6
+PHT:inst1|A4:inst14|lpm_constant4:inst6
+PHT:inst1|A4:inst13|lpm_constant4:inst6
+PHT:inst1|A4:inst12|lpm_constant4:inst6
+PHT:inst1|A4:inst11|lpm_constant4:inst6
+PHT:inst1|A4:inst10|lpm_constant4:inst6
+PHT:inst1|A4:inst9|lpm_constant4:inst6
+PHT:inst1|A4:inst8|lpm_constant4:inst6
+PHT:inst1|A4:inst7|lpm_constant4:inst6
+PHT:inst1|A4:inst6|lpm_constant4:inst6
+PHT:inst1|A4:inst5|lpm_constant4:inst6
+PHT:inst1|A4:inst4|lpm_constant4:inst6
+PHT:inst1|A4:inst2|lpm_constant4:inst6
+PHT:inst1|A4:inst3|lpm_constant4:inst6
+PHT:inst1|A4:inst17|lpm_constant4:inst6
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Lab7.(11).cnf
+db|Lab7.(11).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_constant.tdf
+eb6dfbf4944a55f9ca719d52154e40e2
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+0
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_4e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst18|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst19|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst20|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst21|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst22|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst23|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst24|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst25|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst26|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst27|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst28|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst29|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst30|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst31|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst32|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst16|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst15|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst14|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst13|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst12|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst11|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst10|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst9|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst8|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst7|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst6|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst5|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst4|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst2|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst3|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst17|lpm_constant4:inst6|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant1
+# storage
+db|Lab7.(12).cnf
+db|Lab7.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant1.vhd
+35d2ffc4c1eaabb7cdd288e89e2134
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant1:inst8
+PHT:inst1|A4:inst18|lpm_constant1:inst8
+PHT:inst1|A4:inst19|lpm_constant1:inst8
+PHT:inst1|A4:inst20|lpm_constant1:inst8
+PHT:inst1|A4:inst21|lpm_constant1:inst8
+PHT:inst1|A4:inst22|lpm_constant1:inst8
+PHT:inst1|A4:inst23|lpm_constant1:inst8
+PHT:inst1|A4:inst24|lpm_constant1:inst8
+PHT:inst1|A4:inst25|lpm_constant1:inst8
+PHT:inst1|A4:inst26|lpm_constant1:inst8
+PHT:inst1|A4:inst27|lpm_constant1:inst8
+PHT:inst1|A4:inst28|lpm_constant1:inst8
+PHT:inst1|A4:inst29|lpm_constant1:inst8
+PHT:inst1|A4:inst30|lpm_constant1:inst8
+PHT:inst1|A4:inst31|lpm_constant1:inst8
+PHT:inst1|A4:inst32|lpm_constant1:inst8
+PHT:inst1|A4:inst16|lpm_constant1:inst8
+PHT:inst1|A4:inst15|lpm_constant1:inst8
+PHT:inst1|A4:inst14|lpm_constant1:inst8
+PHT:inst1|A4:inst13|lpm_constant1:inst8
+PHT:inst1|A4:inst12|lpm_constant1:inst8
+PHT:inst1|A4:inst11|lpm_constant1:inst8
+PHT:inst1|A4:inst10|lpm_constant1:inst8
+PHT:inst1|A4:inst9|lpm_constant1:inst8
+PHT:inst1|A4:inst8|lpm_constant1:inst8
+PHT:inst1|A4:inst7|lpm_constant1:inst8
+PHT:inst1|A4:inst6|lpm_constant1:inst8
+PHT:inst1|A4:inst5|lpm_constant1:inst8
+PHT:inst1|A4:inst4|lpm_constant1:inst8
+PHT:inst1|A4:inst2|lpm_constant1:inst8
+PHT:inst1|A4:inst3|lpm_constant1:inst8
+PHT:inst1|A4:inst17|lpm_constant1:inst8
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Lab7.(13).cnf
+db|Lab7.(13).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_constant.tdf
+eb6dfbf4944a55f9ca719d52154e40e2
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+1
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_5e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst18|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst19|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst20|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst21|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst22|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst23|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst24|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst25|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst26|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst27|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst28|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst29|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst30|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst31|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst32|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst16|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst15|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst14|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst13|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst12|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst11|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst10|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst9|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst8|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst7|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst6|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst5|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst4|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst2|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst3|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst17|lpm_constant1:inst8|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant0
+# storage
+db|Lab7.(14).cnf
+db|Lab7.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_constant0.vhd
+cb5127e431d0659a67f95ab293a884db
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant0:inst10
+PHT:inst1|A4:inst18|lpm_constant0:inst10
+PHT:inst1|A4:inst19|lpm_constant0:inst10
+PHT:inst1|A4:inst20|lpm_constant0:inst10
+PHT:inst1|A4:inst21|lpm_constant0:inst10
+PHT:inst1|A4:inst22|lpm_constant0:inst10
+PHT:inst1|A4:inst23|lpm_constant0:inst10
+PHT:inst1|A4:inst24|lpm_constant0:inst10
+PHT:inst1|A4:inst25|lpm_constant0:inst10
+PHT:inst1|A4:inst26|lpm_constant0:inst10
+PHT:inst1|A4:inst27|lpm_constant0:inst10
+PHT:inst1|A4:inst28|lpm_constant0:inst10
+PHT:inst1|A4:inst29|lpm_constant0:inst10
+PHT:inst1|A4:inst30|lpm_constant0:inst10
+PHT:inst1|A4:inst31|lpm_constant0:inst10
+PHT:inst1|A4:inst32|lpm_constant0:inst10
+PHT:inst1|A4:inst16|lpm_constant0:inst10
+PHT:inst1|A4:inst15|lpm_constant0:inst10
+PHT:inst1|A4:inst14|lpm_constant0:inst10
+PHT:inst1|A4:inst13|lpm_constant0:inst10
+PHT:inst1|A4:inst12|lpm_constant0:inst10
+PHT:inst1|A4:inst11|lpm_constant0:inst10
+PHT:inst1|A4:inst10|lpm_constant0:inst10
+PHT:inst1|A4:inst9|lpm_constant0:inst10
+PHT:inst1|A4:inst8|lpm_constant0:inst10
+PHT:inst1|A4:inst7|lpm_constant0:inst10
+PHT:inst1|A4:inst6|lpm_constant0:inst10
+PHT:inst1|A4:inst5|lpm_constant0:inst10
+PHT:inst1|A4:inst4|lpm_constant0:inst10
+PHT:inst1|A4:inst2|lpm_constant0:inst10
+PHT:inst1|A4:inst3|lpm_constant0:inst10
+PHT:inst1|A4:inst17|lpm_constant0:inst10
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Lab7.(15).cnf
+db|Lab7.(15).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_constant.tdf
+eb6dfbf4944a55f9ca719d52154e40e2
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+2
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_6e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst18|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst19|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst20|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst21|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst22|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst23|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst24|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst25|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst26|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst27|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst28|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst29|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst30|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst31|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst32|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst16|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst15|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst14|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst13|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst12|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst11|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst10|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst9|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst8|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst7|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst6|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst5|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst4|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst2|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst3|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst17|lpm_constant0:inst10|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+lpm_constant5
+# storage
+db|Lab7.(16).cnf
+db|Lab7.(16).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+|univer|5 sem|sifo|sifo|labs|lab7|lpm_constant5.vhd
+9ed14f69d14151352b3bd7b53bd3ac8
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant5:inst12
+PHT:inst1|A4:inst18|lpm_constant5:inst12
+PHT:inst1|A4:inst19|lpm_constant5:inst12
+PHT:inst1|A4:inst20|lpm_constant5:inst12
+PHT:inst1|A4:inst21|lpm_constant5:inst12
+PHT:inst1|A4:inst22|lpm_constant5:inst12
+PHT:inst1|A4:inst23|lpm_constant5:inst12
+PHT:inst1|A4:inst24|lpm_constant5:inst12
+PHT:inst1|A4:inst25|lpm_constant5:inst12
+PHT:inst1|A4:inst26|lpm_constant5:inst12
+PHT:inst1|A4:inst27|lpm_constant5:inst12
+PHT:inst1|A4:inst28|lpm_constant5:inst12
+PHT:inst1|A4:inst29|lpm_constant5:inst12
+PHT:inst1|A4:inst30|lpm_constant5:inst12
+PHT:inst1|A4:inst31|lpm_constant5:inst12
+PHT:inst1|A4:inst32|lpm_constant5:inst12
+PHT:inst1|A4:inst16|lpm_constant5:inst12
+PHT:inst1|A4:inst15|lpm_constant5:inst12
+PHT:inst1|A4:inst14|lpm_constant5:inst12
+PHT:inst1|A4:inst13|lpm_constant5:inst12
+PHT:inst1|A4:inst12|lpm_constant5:inst12
+PHT:inst1|A4:inst11|lpm_constant5:inst12
+PHT:inst1|A4:inst10|lpm_constant5:inst12
+PHT:inst1|A4:inst9|lpm_constant5:inst12
+PHT:inst1|A4:inst8|lpm_constant5:inst12
+PHT:inst1|A4:inst7|lpm_constant5:inst12
+PHT:inst1|A4:inst6|lpm_constant5:inst12
+PHT:inst1|A4:inst5|lpm_constant5:inst12
+PHT:inst1|A4:inst4|lpm_constant5:inst12
+PHT:inst1|A4:inst2|lpm_constant5:inst12
+PHT:inst1|A4:inst3|lpm_constant5:inst12
+PHT:inst1|A4:inst17|lpm_constant5:inst12
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_constant
+# storage
+db|Lab7.(17).cnf
+db|Lab7.(17).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_constant.tdf
+eb6dfbf4944a55f9ca719d52154e40e2
+7
+# user_parameter {
+LPM_WIDTH
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_CVALUE
+3
+PARAMETER_SIGNED_DEC
+USR
+ENABLE_RUNTIME_MOD
+NO
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+lpm_constant_7e6
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+result1
+-1
+3
+result0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|A4:inst1|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst18|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst19|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst20|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst21|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst22|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst23|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst24|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst25|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst26|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst27|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst28|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst29|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst30|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst31|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst32|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst16|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst15|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst14|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst13|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst12|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst11|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst10|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst9|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst8|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst7|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst6|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst5|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst4|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst2|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst3|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+PHT:inst1|A4:inst17|lpm_constant5:inst12|lpm_constant:lpm_constant_component
+}
+# macro_sequence
+
+# end
+# entity
+PHT
+# storage
+db|Lab7.(18).cnf
+db|Lab7.(18).cnf
+# case_insensitive
+# source_file
+pht.bdf
+7fed631724489354c96d11c0da26ade1
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+PHT:inst1
+}
+# macro_sequence
+
+# end
+# entity
+lpm_decode0
+# storage
+db|Lab7.(19).cnf
+db|Lab7.(19).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_decode0.vhd
+9552b1e56a9859e0e61eead11f347a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+PHT:inst1|lpm_decode0:inst
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_decode
+# storage
+db|Lab7.(20).cnf
+db|Lab7.(20).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_decode.tdf
+bfce37ee9af3768dda7316c867798b
+7
+# user_parameter {
+LPM_WIDTH
+5
+PARAMETER_SIGNED_DEC
+USR
+LPM_DECODES
+32
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CASCADE_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CBXI_PARAMETER
+decode_d9f
+PARAMETER_UNKNOWN
+USR
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+}
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq31
+-1
+3
+eq30
+-1
+3
+eq3
+-1
+3
+eq29
+-1
+3
+eq28
+-1
+3
+eq27
+-1
+3
+eq26
+-1
+3
+eq25
+-1
+3
+eq24
+-1
+3
+eq23
+-1
+3
+eq22
+-1
+3
+eq21
+-1
+3
+eq20
+-1
+3
+eq2
+-1
+3
+eq19
+-1
+3
+eq18
+-1
+3
+eq17
+-1
+3
+eq16
+-1
+3
+eq15
+-1
+3
+eq14
+-1
+3
+eq13
+-1
+3
+eq12
+-1
+3
+eq11
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|lpm_decode0:inst|lpm_decode:lpm_decode_component
+}
+# macro_sequence
+
+# end
+# entity
+decode_d9f
+# storage
+db|Lab7.(21).cnf
+db|Lab7.(21).cnf
+# case_insensitive
+# source_file
+db|decode_d9f.tdf
+ae4c9e7ff689da4d20fd832fe69c6
+7
+# used_port {
+eq9
+-1
+3
+eq8
+-1
+3
+eq7
+-1
+3
+eq6
+-1
+3
+eq5
+-1
+3
+eq4
+-1
+3
+eq31
+-1
+3
+eq30
+-1
+3
+eq3
+-1
+3
+eq29
+-1
+3
+eq28
+-1
+3
+eq27
+-1
+3
+eq26
+-1
+3
+eq25
+-1
+3
+eq24
+-1
+3
+eq23
+-1
+3
+eq22
+-1
+3
+eq21
+-1
+3
+eq20
+-1
+3
+eq2
+-1
+3
+eq19
+-1
+3
+eq18
+-1
+3
+eq17
+-1
+3
+eq16
+-1
+3
+eq15
+-1
+3
+eq14
+-1
+3
+eq13
+-1
+3
+eq12
+-1
+3
+eq11
+-1
+3
+eq10
+-1
+3
+eq1
+-1
+3
+eq0
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+PHT:inst1|lpm_decode0:inst|lpm_decode:lpm_decode_component|decode_d9f:auto_generated
+}
+# macro_sequence
+
+# end
+# entity
+Lab7
+# storage
+db|Lab7.(22).cnf
+db|Lab7.(22).cnf
+# case_insensitive
+# source_file
+lab7.bdf
+9241f9a87560ce97477073be65e432f5
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+lpm_counter0
+# storage
+db|Lab7.(23).cnf
+db|Lab7.(23).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+lpm_counter0.vhd
+5be8c984c60a2c3c77cb5df28ab75
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+lpm_counter0:inst
+}
+# lmf
+c:|altera|91|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+lpm_counter
+# storage
+db|Lab7.(24).cnf
+db|Lab7.(24).cnf
+# case_insensitive
+# source_file
+c:|altera|91|quartus|libraries|megafunctions|lpm_counter.tdf
+ea80917e5f6a67b6043b433538e1f4b
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+5
+PARAMETER_SIGNED_DEC
+USR
+LPM_DIRECTION
+UP
+PARAMETER_UNKNOWN
+USR
+LPM_MODULUS
+0
+PARAMETER_UNKNOWN
+DEF
+LPM_AVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_SVALUE
+UNUSED
+PARAMETER_UNKNOWN
+DEF
+LPM_PORT_UPDOWN
+PORT_UNUSED
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN
+MANUAL
+PARAMETER_UNKNOWN
+USR
+CARRY_CHAIN_LENGTH
+48
+CARRY_CHAIN_LENGTH
+USR
+NOT_GATE_PUSH_BACK
+ON
+NOT_GATE_PUSH_BACK
+USR
+CARRY_CNT_EN
+SMART
+PARAMETER_UNKNOWN
+DEF
+LABWIDE_SCLR
+ON
+PARAMETER_UNKNOWN
+DEF
+USE_NEW_VERSION
+TRUE
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+cntr_rlh
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+lpm_counter0:inst|lpm_counter:lpm_counter_component
+}
+# macro_sequence
+
+# end
+# entity
+cntr_rlh
+# storage
+db|Lab7.(25).cnf
+db|Lab7.(25).cnf
+# case_insensitive
+# source_file
+db|cntr_rlh.tdf
+8ebcebe0f15dd11ffba464924b279d6
+7
+# used_port {
+q4
+-1
+3
+q3
+-1
+3
+q2
+-1
+3
+q1
+-1
+3
+q0
+-1
+3
+clock
+-1
+3
+}
+# hierarchies {
+lpm_counter0:inst|lpm_counter:lpm_counter_component|cntr_rlh:auto_generated
+}
+# macro_sequence
+
+# end
+# complete
+
